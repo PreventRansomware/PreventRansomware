@@ -12,5 +12,7 @@ This means most ransomware gangs aren't sophisticated at all. They want to take 
 
 Follow this documentation through to the end, your network **will categorically be able to fend off the majority of today's ransomware attacks**.
 
+helo 
+
 
 

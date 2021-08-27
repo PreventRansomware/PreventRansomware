@@ -1,0 +1,38 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "Initial Access/Exploit Edge Appliances",
+              "path": "/docs/Initial Access/Exploit Edge Appliances",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Initial Access/Stolen Credentials",
+              "path": "/docs/Initial Access/Stolen Credentials",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Initial Access/Summary",
+              "path": "/docs/Initial Access/Summary",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/docs/intro",
+              "sidebar": "tutorialSidebar"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

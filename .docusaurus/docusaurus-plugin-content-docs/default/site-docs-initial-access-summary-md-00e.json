@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Initial Access/Summary",
+  "id": "Initial Access/Summary",
+  "isDocsHomePage": false,
+  "title": "Summary",
+  "description": "As established in the introduction, attackers want to use the path of least resistance to compromise your network. This usually means exploiting the same handful of tried and true tactics which rely on common misconfigurations and bad security practices.",
+  "source": "@site/docs/Initial Access/Summary.md",
+  "sourceDirName": "Initial Access",
+  "slug": "/Initial Access/Summary",
+  "permalink": "/docs/Initial Access/Summary",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Initial Access/Summary.md",
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/docs/intro"
+  },
+  "next": {
+    "title": "Exploit Edge Appliances",
+    "permalink": "/docs/Initial Access/Exploit Edge Appliances"
+  }
+}

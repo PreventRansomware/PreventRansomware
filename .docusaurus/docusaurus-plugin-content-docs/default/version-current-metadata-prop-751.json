@@ -1,0 +1,43 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "isLast": true,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "link",
+        "label": "Introduction",
+        "href": "/docs/intro"
+      },
+      {
+        "type": "category",
+        "label": "Inital Access",
+        "items": [
+          {
+            "type": "link",
+            "label": "Summary",
+            "href": "/docs/Initial Access/Summary"
+          },
+          {
+            "type": "link",
+            "label": "Exploit Edge Appliances",
+            "href": "/docs/Initial Access/Exploit Edge Appliances"
+          },
+          {
+            "type": "link",
+            "label": "Stolen Credentials",
+            "href": "/docs/Initial Access/Stolen Credentials"
+          }
+        ],
+        "collapsed": true
+      }
+    ]
+  },
+  "permalinkToSidebar": {
+    "/docs/Initial Access/Exploit Edge Appliances": "tutorialSidebar",
+    "/docs/Initial Access/Stolen Credentials": "tutorialSidebar",
+    "/docs/Initial Access/Summary": "tutorialSidebar",
+    "/docs/intro": "tutorialSidebar"
+  }
+}

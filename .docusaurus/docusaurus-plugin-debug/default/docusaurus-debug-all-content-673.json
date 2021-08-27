@@ -1,0 +1,175 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "versionLabel": "Next",
+          "versionPath": "/docs",
+          "versionEditUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs",
+          "versionEditUrlLocalized": "https://github.com/facebook/docusaurus/edit/master/website/i18n/en/docusaurus-plugin-content-docs/current",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/Users/charlie/Documents/GitHub/PreventRansomware/sidebars.js",
+          "contentPath": "/Users/charlie/Documents/GitHub/PreventRansomware/docs",
+          "contentPathLocalized": "/Users/charlie/Documents/GitHub/PreventRansomware/i18n/en/docusaurus-plugin-content-docs/current",
+          "mainDocId": "intro",
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "doc",
+                "id": "intro"
+              },
+              {
+                "type": "category",
+                "label": "Inital Access",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "Initial Access/Summary"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Initial Access/Exploit Edge Appliances"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Initial Access/Stolen Credentials"
+                  }
+                ],
+                "collapsed": true
+              }
+            ]
+          },
+          "permalinkToSidebar": {
+            "/docs/Initial Access/Exploit Edge Appliances": "tutorialSidebar",
+            "/docs/Initial Access/Stolen Credentials": "tutorialSidebar",
+            "/docs/Initial Access/Summary": "tutorialSidebar",
+            "/docs/intro": "tutorialSidebar"
+          },
+          "docs": [
+            {
+              "unversionedId": "Initial Access/Exploit Edge Appliances",
+              "id": "Initial Access/Exploit Edge Appliances",
+              "isDocsHomePage": false,
+              "title": "Exploit Edge Appliances",
+              "description": "The risk",
+              "source": "@site/docs/Initial Access/Exploit Edge Appliances.md",
+              "sourceDirName": "Initial Access",
+              "slug": "/Initial Access/Exploit Edge Appliances",
+              "permalink": "/docs/Initial Access/Exploit Edge Appliances",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Initial Access/Exploit Edge Appliances.md",
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Summary",
+                "permalink": "/docs/Initial Access/Summary"
+              },
+              "next": {
+                "title": "Stolen Credentials",
+                "permalink": "/docs/Initial Access/Stolen Credentials"
+              }
+            },
+            {
+              "unversionedId": "Initial Access/Stolen Credentials",
+              "id": "Initial Access/Stolen Credentials",
+              "isDocsHomePage": false,
+              "title": "Stolen Credentials",
+              "description": "Consumers of security tools are led to believe that Ransomware is a complex threat but in the real world this could not be further from the truth.",
+              "source": "@site/docs/Initial Access/Stolen Credentials.md",
+              "sourceDirName": "Initial Access",
+              "slug": "/Initial Access/Stolen Credentials",
+              "permalink": "/docs/Initial Access/Stolen Credentials",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Initial Access/Stolen Credentials.md",
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Exploit Edge Appliances",
+                "permalink": "/docs/Initial Access/Exploit Edge Appliances"
+              }
+            },
+            {
+              "unversionedId": "Initial Access/Summary",
+              "id": "Initial Access/Summary",
+              "isDocsHomePage": false,
+              "title": "Summary",
+              "description": "As established in the introduction, attackers want to use the path of least resistance to compromise your network. This usually means exploiting the same handful of tried and true tactics which rely on common misconfigurations and bad security practices.",
+              "source": "@site/docs/Initial Access/Summary.md",
+              "sourceDirName": "Initial Access",
+              "slug": "/Initial Access/Summary",
+              "permalink": "/docs/Initial Access/Summary",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Initial Access/Summary.md",
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Introduction",
+                "permalink": "/docs/intro"
+              },
+              "next": {
+                "title": "Exploit Edge Appliances",
+                "permalink": "/docs/Initial Access/Exploit Edge Appliances"
+              }
+            },
+            {
+              "unversionedId": "intro",
+              "id": "intro",
+              "isDocsHomePage": false,
+              "title": "Introduction",
+              "description": "Ransomware is chalked up to be a complex threat to modern enterprises. So-called sophisticated attackers infiltrate and cripple networks indiscriminately. These attacks are often quickly followed by a scary blog post from big-name security vendors who explain why this particular ransomware event was more sinister and advanced than the last.",
+              "source": "@site/docs/intro.md",
+              "sourceDirName": ".",
+              "slug": "/intro",
+              "permalink": "/docs/intro",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/intro.md",
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "Summary",
+                "permalink": "/docs/Initial Access/Summary"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": null
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "jsx",
+        "permalink": "/",
+        "source": "@site/src/pages/index.js"
+      },
+      {
+        "type": "mdx",
+        "permalink": "/markdown-page",
+        "source": "@site/src/pages/markdown-page.md"
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {
+    "default": null
+  },
+  "docusaurus-theme-classic": {
+    "default": null
+  }
+}
