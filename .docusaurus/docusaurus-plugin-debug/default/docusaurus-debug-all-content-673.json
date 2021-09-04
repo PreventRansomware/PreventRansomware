@@ -30,7 +30,7 @@
                   },
                   {
                     "type": "doc",
-                    "id": "Initial Access/Exploit Edge Appliances"
+                    "id": "Initial Access/Explotation Of Networking Appliances"
                   },
                   {
                     "type": "doc",
@@ -42,23 +42,23 @@
             ]
           },
           "permalinkToSidebar": {
-            "/docs/Initial Access/Exploit Edge Appliances": "tutorialSidebar",
+            "/docs/Initial Access/Explotation Of Networking Appliances": "tutorialSidebar",
             "/docs/Initial Access/Stolen Credentials": "tutorialSidebar",
             "/docs/Initial Access/Summary": "tutorialSidebar",
             "/docs/intro": "tutorialSidebar"
           },
           "docs": [
             {
-              "unversionedId": "Initial Access/Exploit Edge Appliances",
-              "id": "Initial Access/Exploit Edge Appliances",
+              "unversionedId": "Initial Access/Explotation Of Networking Appliances",
+              "id": "Initial Access/Explotation Of Networking Appliances",
               "isDocsHomePage": false,
-              "title": "Exploit Edge Appliances",
+              "title": "Explotation Of Networking Appliances",
               "description": "The risk",
-              "source": "@site/docs/Initial Access/Exploit Edge Appliances.md",
+              "source": "@site/docs/Initial Access/Explotation Of Networking Appliances.md",
               "sourceDirName": "Initial Access",
-              "slug": "/Initial Access/Exploit Edge Appliances",
-              "permalink": "/docs/Initial Access/Exploit Edge Appliances",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Initial Access/Exploit Edge Appliances.md",
+              "slug": "/Initial Access/Explotation Of Networking Appliances",
+              "permalink": "/docs/Initial Access/Explotation Of Networking Appliances",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Initial Access/Explotation Of Networking Appliances.md",
               "version": "current",
               "sidebarPosition": 2,
               "frontMatter": {
@@ -92,8 +92,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Exploit Edge Appliances",
-                "permalink": "/docs/Initial Access/Exploit Edge Appliances"
+                "title": "Explotation Of Networking Appliances",
+                "permalink": "/docs/Initial Access/Explotation Of Networking Appliances"
               }
             },
             {
@@ -118,8 +118,8 @@
                 "permalink": "/docs/intro"
               },
               "next": {
-                "title": "Exploit Edge Appliances",
-                "permalink": "/docs/Initial Access/Exploit Edge Appliances"
+                "title": "Explotation Of Networking Appliances",
+                "permalink": "/docs/Initial Access/Explotation Of Networking Appliances"
               }
             },
             {

@@ -49,12 +49,12 @@ export default [
 },
 {
   path: '/docs',
-  component: ComponentCreator('/docs','d71'),
+  component: ComponentCreator('/docs','a20'),
   
   routes: [
 {
-  path: '/docs/Initial Access/Exploit Edge Appliances',
-  component: ComponentCreator('/docs/Initial Access/Exploit Edge Appliances','9a5'),
+  path: '/docs/Initial Access/Explotation Of Networking Appliances',
+  component: ComponentCreator('/docs/Initial Access/Explotation Of Networking Appliances','d0e'),
   exact: true,
 },
 {

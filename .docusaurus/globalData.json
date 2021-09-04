@@ -11,8 +11,8 @@
           "mainDocId": "intro",
           "docs": [
             {
-              "id": "Initial Access/Exploit Edge Appliances",
-              "path": "/docs/Initial Access/Exploit Edge Appliances",
+              "id": "Initial Access/Explotation Of Networking Appliances",
+              "path": "/docs/Initial Access/Explotation Of Networking Appliances",
               "sidebar": "tutorialSidebar"
             },
             {

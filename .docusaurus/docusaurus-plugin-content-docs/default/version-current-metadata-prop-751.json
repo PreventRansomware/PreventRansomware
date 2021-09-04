@@ -21,8 +21,8 @@
           },
           {
             "type": "link",
-            "label": "Exploit Edge Appliances",
-            "href": "/docs/Initial Access/Exploit Edge Appliances"
+            "label": "Explotation Of Networking Appliances",
+            "href": "/docs/Initial Access/Explotation Of Networking Appliances"
           },
           {
             "type": "link",
@@ -35,7 +35,7 @@
     ]
   },
   "permalinkToSidebar": {
-    "/docs/Initial Access/Exploit Edge Appliances": "tutorialSidebar",
+    "/docs/Initial Access/Explotation Of Networking Appliances": "tutorialSidebar",
     "/docs/Initial Access/Stolen Credentials": "tutorialSidebar",
     "/docs/Initial Access/Summary": "tutorialSidebar",
     "/docs/intro": "tutorialSidebar"
