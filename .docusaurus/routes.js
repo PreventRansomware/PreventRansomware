@@ -49,9 +49,14 @@ export default [
 },
 {
   path: '/docs',
-  component: ComponentCreator('/docs','821'),
+  component: ComponentCreator('/docs','99a'),
   
   routes: [
+{
+  path: '/docs/Initial Compromise/Credential phishing',
+  component: ComponentCreator('/docs/Initial Compromise/Credential phishing','12e'),
+  exact: true,
+},
 {
   path: '/docs/Initial Compromise/Explotation Of Networking Appliances',
   component: ComponentCreator('/docs/Initial Compromise/Explotation Of Networking Appliances','2a5'),

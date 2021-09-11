@@ -20,7 +20,7 @@
     "permalink": "/docs/Initial Compromise/Summary"
   },
   "next": {
-    "title": "Stolen Credentials",
-    "permalink": "/docs/Post Compromise/Stolen Credentials"
+    "title": "Credential phishing",
+    "permalink": "/docs/Initial Compromise/Credential phishing"
   }
 }

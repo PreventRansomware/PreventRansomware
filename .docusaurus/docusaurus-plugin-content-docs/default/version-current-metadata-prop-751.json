@@ -23,6 +23,11 @@
             "type": "link",
             "label": "Explotation Of Networking Appliances",
             "href": "/docs/Initial Compromise/Explotation Of Networking Appliances"
+          },
+          {
+            "type": "link",
+            "label": "Credential phishing",
+            "href": "/docs/Initial Compromise/Credential phishing"
           }
         ],
         "collapsed": true
@@ -42,6 +47,7 @@
     ]
   },
   "permalinkToSidebar": {
+    "/docs/Initial Compromise/Credential phishing": "tutorialSidebar",
     "/docs/Initial Compromise/Explotation Of Networking Appliances": "tutorialSidebar",
     "/docs/Initial Compromise/Summary": "tutorialSidebar",
     "/docs/intro": "tutorialSidebar",
