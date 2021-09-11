@@ -17,17 +17,24 @@
           {
             "type": "link",
             "label": "Summary",
-            "href": "/docs/Initial Access/Summary"
+            "href": "/docs/Initial Compromise/Summary"
           },
           {
             "type": "link",
             "label": "Explotation Of Networking Appliances",
-            "href": "/docs/Initial Access/Explotation Of Networking Appliances"
-          },
+            "href": "/docs/Initial Compromise/Explotation Of Networking Appliances"
+          }
+        ],
+        "collapsed": true
+      },
+      {
+        "type": "category",
+        "label": "Post Compromise",
+        "items": [
           {
             "type": "link",
             "label": "Stolen Credentials",
-            "href": "/docs/Initial Access/Stolen Credentials"
+            "href": "/docs/Post Compromise/Stolen Credentials"
           }
         ],
         "collapsed": true
@@ -35,9 +42,9 @@
     ]
   },
   "permalinkToSidebar": {
-    "/docs/Initial Access/Explotation Of Networking Appliances": "tutorialSidebar",
-    "/docs/Initial Access/Stolen Credentials": "tutorialSidebar",
-    "/docs/Initial Access/Summary": "tutorialSidebar",
-    "/docs/intro": "tutorialSidebar"
+    "/docs/Initial Compromise/Explotation Of Networking Appliances": "tutorialSidebar",
+    "/docs/Initial Compromise/Summary": "tutorialSidebar",
+    "/docs/intro": "tutorialSidebar",
+    "/docs/Post Compromise/Stolen Credentials": "tutorialSidebar"
   }
 }

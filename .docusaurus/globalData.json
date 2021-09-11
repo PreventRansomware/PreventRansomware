@@ -11,23 +11,23 @@
           "mainDocId": "intro",
           "docs": [
             {
-              "id": "Initial Access/Explotation Of Networking Appliances",
-              "path": "/docs/Initial Access/Explotation Of Networking Appliances",
+              "id": "Initial Compromise/Explotation Of Networking Appliances",
+              "path": "/docs/Initial Compromise/Explotation Of Networking Appliances",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Initial Access/Stolen Credentials",
-              "path": "/docs/Initial Access/Stolen Credentials",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Initial Access/Summary",
-              "path": "/docs/Initial Access/Summary",
+              "id": "Initial Compromise/Summary",
+              "path": "/docs/Initial Compromise/Summary",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "intro",
               "path": "/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Post Compromise/Stolen Credentials",
+              "path": "/docs/Post Compromise/Stolen Credentials",
               "sidebar": "tutorialSidebar"
             }
           ]

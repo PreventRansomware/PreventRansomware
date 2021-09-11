@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Initial Compromise/Summary",
+  "id": "Initial Compromise/Summary",
+  "isDocsHomePage": false,
+  "title": "Summary",
+  "description": "As established in the introduction, attackers want to use the path of least resistance to compromise your network. This usually means exploiting the same handful of tried and true tactics which rely on common misconfigurations and bad security practices.",
+  "source": "@site/docs/Initial Compromise/Summary.md",
+  "sourceDirName": "Initial Compromise",
+  "slug": "/Initial Compromise/Summary",
+  "permalink": "/docs/Initial Compromise/Summary",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Initial Compromise/Summary.md",
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/docs/intro"
+  },
+  "next": {
+    "title": "Explotation Of Networking Appliances",
+    "permalink": "/docs/Initial Compromise/Explotation Of Networking Appliances"
+  }
+}

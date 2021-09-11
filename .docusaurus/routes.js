@@ -49,27 +49,27 @@ export default [
 },
 {
   path: '/docs',
-  component: ComponentCreator('/docs','a20'),
+  component: ComponentCreator('/docs','821'),
   
   routes: [
 {
-  path: '/docs/Initial Access/Explotation Of Networking Appliances',
-  component: ComponentCreator('/docs/Initial Access/Explotation Of Networking Appliances','d0e'),
+  path: '/docs/Initial Compromise/Explotation Of Networking Appliances',
+  component: ComponentCreator('/docs/Initial Compromise/Explotation Of Networking Appliances','2a5'),
   exact: true,
 },
 {
-  path: '/docs/Initial Access/Stolen Credentials',
-  component: ComponentCreator('/docs/Initial Access/Stolen Credentials','b32'),
-  exact: true,
-},
-{
-  path: '/docs/Initial Access/Summary',
-  component: ComponentCreator('/docs/Initial Access/Summary','c2d'),
+  path: '/docs/Initial Compromise/Summary',
+  component: ComponentCreator('/docs/Initial Compromise/Summary','57f'),
   exact: true,
 },
 {
   path: '/docs/intro',
   component: ComponentCreator('/docs/intro','e84'),
+  exact: true,
+},
+{
+  path: '/docs/Post Compromise/Stolen Credentials',
+  component: ComponentCreator('/docs/Post Compromise/Stolen Credentials','df9'),
   exact: true,
 },
 ]

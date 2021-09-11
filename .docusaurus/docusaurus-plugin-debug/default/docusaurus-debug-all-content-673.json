@@ -26,15 +26,22 @@
                 "items": [
                   {
                     "type": "doc",
-                    "id": "Initial Access/Summary"
+                    "id": "Initial Compromise/Summary"
                   },
                   {
                     "type": "doc",
-                    "id": "Initial Access/Explotation Of Networking Appliances"
-                  },
+                    "id": "Initial Compromise/Explotation Of Networking Appliances"
+                  }
+                ],
+                "collapsed": true
+              },
+              {
+                "type": "category",
+                "label": "Post Compromise",
+                "items": [
                   {
                     "type": "doc",
-                    "id": "Initial Access/Stolen Credentials"
+                    "id": "Post Compromise/Stolen Credentials"
                   }
                 ],
                 "collapsed": true
@@ -42,23 +49,23 @@
             ]
           },
           "permalinkToSidebar": {
-            "/docs/Initial Access/Explotation Of Networking Appliances": "tutorialSidebar",
-            "/docs/Initial Access/Stolen Credentials": "tutorialSidebar",
-            "/docs/Initial Access/Summary": "tutorialSidebar",
-            "/docs/intro": "tutorialSidebar"
+            "/docs/Initial Compromise/Explotation Of Networking Appliances": "tutorialSidebar",
+            "/docs/Initial Compromise/Summary": "tutorialSidebar",
+            "/docs/intro": "tutorialSidebar",
+            "/docs/Post Compromise/Stolen Credentials": "tutorialSidebar"
           },
           "docs": [
             {
-              "unversionedId": "Initial Access/Explotation Of Networking Appliances",
-              "id": "Initial Access/Explotation Of Networking Appliances",
+              "unversionedId": "Initial Compromise/Explotation Of Networking Appliances",
+              "id": "Initial Compromise/Explotation Of Networking Appliances",
               "isDocsHomePage": false,
               "title": "Explotation Of Networking Appliances",
-              "description": "The risk",
-              "source": "@site/docs/Initial Access/Explotation Of Networking Appliances.md",
-              "sourceDirName": "Initial Access",
-              "slug": "/Initial Access/Explotation Of Networking Appliances",
-              "permalink": "/docs/Initial Access/Explotation Of Networking Appliances",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Initial Access/Explotation Of Networking Appliances.md",
+              "description": "Networking appliances like VPNs and Citrix access gateways are often installed to grant roaming users access to internal resources like file shares and applications. These appliances straddle the gap between the internet and the internal network. This rather precarious location makes them an attractive target for attackers because successful compromise will most likely lead directly to the soft squishy center of a private network.",
+              "source": "@site/docs/Initial Compromise/Explotation Of Networking Appliances.md",
+              "sourceDirName": "Initial Compromise",
+              "slug": "/Initial Compromise/Explotation Of Networking Appliances",
+              "permalink": "/docs/Initial Compromise/Explotation Of Networking Appliances",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Initial Compromise/Explotation Of Networking Appliances.md",
               "version": "current",
               "sidebarPosition": 2,
               "frontMatter": {
@@ -67,46 +74,24 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Summary",
-                "permalink": "/docs/Initial Access/Summary"
+                "permalink": "/docs/Initial Compromise/Summary"
               },
               "next": {
                 "title": "Stolen Credentials",
-                "permalink": "/docs/Initial Access/Stolen Credentials"
+                "permalink": "/docs/Post Compromise/Stolen Credentials"
               }
             },
             {
-              "unversionedId": "Initial Access/Stolen Credentials",
-              "id": "Initial Access/Stolen Credentials",
-              "isDocsHomePage": false,
-              "title": "Stolen Credentials",
-              "description": "Consumers of security tools are led to believe that Ransomware is a complex threat but in the real world this could not be further from the truth.",
-              "source": "@site/docs/Initial Access/Stolen Credentials.md",
-              "sourceDirName": "Initial Access",
-              "slug": "/Initial Access/Stolen Credentials",
-              "permalink": "/docs/Initial Access/Stolen Credentials",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Initial Access/Stolen Credentials.md",
-              "version": "current",
-              "sidebarPosition": 4,
-              "frontMatter": {
-                "sidebar_position": 4
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Explotation Of Networking Appliances",
-                "permalink": "/docs/Initial Access/Explotation Of Networking Appliances"
-              }
-            },
-            {
-              "unversionedId": "Initial Access/Summary",
-              "id": "Initial Access/Summary",
+              "unversionedId": "Initial Compromise/Summary",
+              "id": "Initial Compromise/Summary",
               "isDocsHomePage": false,
               "title": "Summary",
               "description": "As established in the introduction, attackers want to use the path of least resistance to compromise your network. This usually means exploiting the same handful of tried and true tactics which rely on common misconfigurations and bad security practices.",
-              "source": "@site/docs/Initial Access/Summary.md",
-              "sourceDirName": "Initial Access",
-              "slug": "/Initial Access/Summary",
-              "permalink": "/docs/Initial Access/Summary",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Initial Access/Summary.md",
+              "source": "@site/docs/Initial Compromise/Summary.md",
+              "sourceDirName": "Initial Compromise",
+              "slug": "/Initial Compromise/Summary",
+              "permalink": "/docs/Initial Compromise/Summary",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Initial Compromise/Summary.md",
               "version": "current",
               "sidebarPosition": 1,
               "frontMatter": {
@@ -119,7 +104,7 @@
               },
               "next": {
                 "title": "Explotation Of Networking Appliances",
-                "permalink": "/docs/Initial Access/Explotation Of Networking Appliances"
+                "permalink": "/docs/Initial Compromise/Explotation Of Networking Appliances"
               }
             },
             {
@@ -141,7 +126,29 @@
               "sidebar": "tutorialSidebar",
               "next": {
                 "title": "Summary",
-                "permalink": "/docs/Initial Access/Summary"
+                "permalink": "/docs/Initial Compromise/Summary"
+              }
+            },
+            {
+              "unversionedId": "Post Compromise/Stolen Credentials",
+              "id": "Post Compromise/Stolen Credentials",
+              "isDocsHomePage": false,
+              "title": "Stolen Credentials",
+              "description": "Consumers of security tools are led to believe that Ransomware is a complex threat but in the real world this could not be further from the truth.",
+              "source": "@site/docs/Post Compromise/Stolen Credentials.md",
+              "sourceDirName": "Post Compromise",
+              "slug": "/Post Compromise/Stolen Credentials",
+              "permalink": "/docs/Post Compromise/Stolen Credentials",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Post Compromise/Stolen Credentials.md",
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Explotation Of Networking Appliances",
+                "permalink": "/docs/Initial Compromise/Explotation Of Networking Appliances"
               }
             }
           ]
