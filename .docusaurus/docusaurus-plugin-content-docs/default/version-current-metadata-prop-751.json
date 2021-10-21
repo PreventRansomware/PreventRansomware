@@ -26,8 +26,8 @@
           },
           {
             "type": "link",
-            "label": "Credential phishing",
-            "href": "/docs/Initial Compromise/Credential phishing"
+            "label": "Phishing Attacks",
+            "href": "/docs/Initial Compromise/Phishing Attacks"
           }
         ],
         "collapsed": true
@@ -47,8 +47,8 @@
     ]
   },
   "permalinkToSidebar": {
-    "/docs/Initial Compromise/Credential phishing": "tutorialSidebar",
     "/docs/Initial Compromise/Explotation Of Networking Appliances": "tutorialSidebar",
+    "/docs/Initial Compromise/Phishing Attacks": "tutorialSidebar",
     "/docs/Initial Compromise/Summary": "tutorialSidebar",
     "/docs/intro": "tutorialSidebar",
     "/docs/Post Compromise/Stolen Credentials": "tutorialSidebar"

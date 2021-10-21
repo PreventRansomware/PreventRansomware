@@ -11,13 +11,13 @@
           "mainDocId": "intro",
           "docs": [
             {
-              "id": "Initial Compromise/Credential phishing",
-              "path": "/docs/Initial Compromise/Credential phishing",
+              "id": "Initial Compromise/Explotation Of Networking Appliances",
+              "path": "/docs/Initial Compromise/Explotation Of Networking Appliances",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Initial Compromise/Explotation Of Networking Appliances",
-              "path": "/docs/Initial Compromise/Explotation Of Networking Appliances",
+              "id": "Initial Compromise/Phishing Attacks",
+              "path": "/docs/Initial Compromise/Phishing Attacks",
               "sidebar": "tutorialSidebar"
             },
             {

@@ -49,17 +49,17 @@ export default [
 },
 {
   path: '/docs',
-  component: ComponentCreator('/docs','99a'),
+  component: ComponentCreator('/docs','93e'),
   
   routes: [
 {
-  path: '/docs/Initial Compromise/Credential phishing',
-  component: ComponentCreator('/docs/Initial Compromise/Credential phishing','12e'),
+  path: '/docs/Initial Compromise/Explotation Of Networking Appliances',
+  component: ComponentCreator('/docs/Initial Compromise/Explotation Of Networking Appliances','2a5'),
   exact: true,
 },
 {
-  path: '/docs/Initial Compromise/Explotation Of Networking Appliances',
-  component: ComponentCreator('/docs/Initial Compromise/Explotation Of Networking Appliances','2a5'),
+  path: '/docs/Initial Compromise/Phishing Attacks',
+  component: ComponentCreator('/docs/Initial Compromise/Phishing Attacks','541'),
   exact: true,
 },
 {

@@ -34,7 +34,7 @@
                   },
                   {
                     "type": "doc",
-                    "id": "Initial Compromise/Credential phishing"
+                    "id": "Initial Compromise/Phishing Attacks"
                   }
                 ],
                 "collapsed": true
@@ -53,39 +53,13 @@
             ]
           },
           "permalinkToSidebar": {
-            "/docs/Initial Compromise/Credential phishing": "tutorialSidebar",
             "/docs/Initial Compromise/Explotation Of Networking Appliances": "tutorialSidebar",
+            "/docs/Initial Compromise/Phishing Attacks": "tutorialSidebar",
             "/docs/Initial Compromise/Summary": "tutorialSidebar",
             "/docs/intro": "tutorialSidebar",
             "/docs/Post Compromise/Stolen Credentials": "tutorialSidebar"
           },
           "docs": [
-            {
-              "unversionedId": "Initial Compromise/Credential phishing",
-              "id": "Initial Compromise/Credential phishing",
-              "isDocsHomePage": false,
-              "title": "Credential phishing",
-              "description": "Phishing attacks come in many flavours, almost all of them are enjoyed by ransomware operators and in fact phishing is one of the most common ways for ransomware to seep into a network either directly or indirectly. As an attack technique its popularity is probably fuelled by its success, relying on arguably the weakest link in cyber defences, people.",
-              "source": "@site/docs/Initial Compromise/Credential phishing.md",
-              "sourceDirName": "Initial Compromise",
-              "slug": "/Initial Compromise/Credential phishing",
-              "permalink": "/docs/Initial Compromise/Credential phishing",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Initial Compromise/Credential phishing.md",
-              "version": "current",
-              "sidebarPosition": 4,
-              "frontMatter": {
-                "sidebar_position": 4
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Explotation Of Networking Appliances",
-                "permalink": "/docs/Initial Compromise/Explotation Of Networking Appliances"
-              },
-              "next": {
-                "title": "Stolen Credentials",
-                "permalink": "/docs/Post Compromise/Stolen Credentials"
-              }
-            },
             {
               "unversionedId": "Initial Compromise/Explotation Of Networking Appliances",
               "id": "Initial Compromise/Explotation Of Networking Appliances",
@@ -108,8 +82,34 @@
                 "permalink": "/docs/Initial Compromise/Summary"
               },
               "next": {
-                "title": "Credential phishing",
-                "permalink": "/docs/Initial Compromise/Credential phishing"
+                "title": "Phishing Attacks",
+                "permalink": "/docs/Initial Compromise/Phishing Attacks"
+              }
+            },
+            {
+              "unversionedId": "Initial Compromise/Phishing Attacks",
+              "id": "Initial Compromise/Phishing Attacks",
+              "isDocsHomePage": false,
+              "title": "Phishing Attacks",
+              "description": "Phishing attacks come in many flavours, almost all of them are enjoyed by ransomware operators and in fact phishing is one of the most common ways for ransomware to seep into a network either directly or indirectly. As an attack technique its popularity is probably fuelled by its success, relying on arguably the weakest link in cyber defences, people.",
+              "source": "@site/docs/Initial Compromise/Phishing Attacks.md",
+              "sourceDirName": "Initial Compromise",
+              "slug": "/Initial Compromise/Phishing Attacks",
+              "permalink": "/docs/Initial Compromise/Phishing Attacks",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Initial Compromise/Phishing Attacks.md",
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Explotation Of Networking Appliances",
+                "permalink": "/docs/Initial Compromise/Explotation Of Networking Appliances"
+              },
+              "next": {
+                "title": "Stolen Credentials",
+                "permalink": "/docs/Post Compromise/Stolen Credentials"
               }
             },
             {
@@ -178,8 +178,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Credential phishing",
-                "permalink": "/docs/Initial Compromise/Credential phishing"
+                "title": "Phishing Attacks",
+                "permalink": "/docs/Initial Compromise/Phishing Attacks"
               }
             }
           ]
