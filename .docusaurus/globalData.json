@@ -8,7 +8,7 @@
           "label": "Next",
           "isLast": true,
           "path": "/docs",
-          "mainDocId": "intro",
+          "mainDocId": "Initial Compromise/Summary",
           "docs": [
             {
               "id": "Initial Compromise/Explotation Of Networking Appliances",

@@ -13,13 +13,9 @@
           "sidebarFilePath": "/Users/charlie/git/PreventRansomware/sidebars.js",
           "contentPath": "/Users/charlie/git/PreventRansomware/docs",
           "contentPathLocalized": "/Users/charlie/git/PreventRansomware/i18n/en/docusaurus-plugin-content-docs/current",
-          "mainDocId": "intro",
+          "mainDocId": "Initial Compromise/Summary",
           "sidebars": {
             "tutorialSidebar": [
-              {
-                "type": "doc",
-                "id": "intro"
-              },
               {
                 "type": "category",
                 "label": "Inital Access",
@@ -46,6 +42,10 @@
                   }
                 ],
                 "collapsed": true
+              },
+              {
+                "type": "doc",
+                "id": "intro"
               }
             ]
           },
@@ -139,7 +139,7 @@
               "id": "Initial Compromise/Stolen Credentials",
               "isDocsHomePage": false,
               "title": "Stolen Credentials",
-              "description": "Consumers of security tools are led to believe that Ransomware is a complex threat but in the real world this could not be further from the truth.",
+              "description": "It's common for ransomware gangs to break into organisations simply by logging into a network with stolen, guessed or purchased credentials. Yes, that's right, hackers are just literally just logging in to your network to deploy ransomware.",
               "source": "@site/docs/Initial Compromise/Stolen Credentials.md",
               "sourceDirName": "Initial Compromise",
               "slug": "/Initial Compromise/Stolen Credentials",
@@ -153,6 +153,10 @@
               "previous": {
                 "title": "Phishing Attacks",
                 "permalink": "/docs/Initial Compromise/Phishing Attacks"
+              },
+              "next": {
+                "title": "Introduction",
+                "permalink": "/docs/intro"
               }
             },
             {
@@ -172,10 +176,6 @@
                 "sidebar_position": 1
               },
               "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Introduction",
-                "permalink": "/docs/intro"
-              },
               "next": {
                 "title": "Explotation Of Networking Appliances",
                 "permalink": "/docs/Initial Compromise/Explotation Of Networking Appliances"
@@ -186,21 +186,20 @@
               "id": "intro",
               "isDocsHomePage": false,
               "title": "Introduction",
-              "description": "Ransomware is chalked up to be a complex threat to modern enterprises. So-called sophisticated attackers infiltrate and cripple networks indiscriminately. These attacks are often quickly followed by a scary blog post from big-name security vendors who explain why this particular ransomware event was more sinister and advanced than the last.",
+              "description": "Ransomware is chalked up to be a complex threat to modern enterprises. So-called sophisticated attackers infiltrate and cripple networks indiscriminately. These attacks are often followed by blog posts from big brand security vendors who explain why this particular ransomware event was more sinister and advanced than the last.",
               "source": "@site/docs/intro.md",
               "sourceDirName": ".",
               "slug": "/intro",
               "permalink": "/docs/intro",
               "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/intro.md",
               "version": "current",
-              "sidebarPosition": 1,
               "frontMatter": {
-                "sidebar_position": 1
+                "sidebar\\_position": 1
               },
               "sidebar": "tutorialSidebar",
-              "next": {
-                "title": "Summary",
-                "permalink": "/docs/Initial Compromise/Summary"
+              "previous": {
+                "title": "Stolen Credentials",
+                "permalink": "/docs/Initial Compromise/Stolen Credentials"
               }
             }
           ]

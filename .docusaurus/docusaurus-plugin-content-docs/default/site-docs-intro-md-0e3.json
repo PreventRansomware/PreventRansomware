@@ -3,20 +3,19 @@
   "id": "intro",
   "isDocsHomePage": false,
   "title": "Introduction",
-  "description": "Ransomware is chalked up to be a complex threat to modern enterprises. So-called sophisticated attackers infiltrate and cripple networks indiscriminately. These attacks are often quickly followed by a scary blog post from big-name security vendors who explain why this particular ransomware event was more sinister and advanced than the last.",
+  "description": "Ransomware is chalked up to be a complex threat to modern enterprises. So-called sophisticated attackers infiltrate and cripple networks indiscriminately. These attacks are often followed by blog posts from big brand security vendors who explain why this particular ransomware event was more sinister and advanced than the last.",
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
   "slug": "/intro",
   "permalink": "/docs/intro",
   "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/intro.md",
   "version": "current",
-  "sidebarPosition": 1,
   "frontMatter": {
-    "sidebar_position": 1
+    "sidebar\\_position": 1
   },
   "sidebar": "tutorialSidebar",
-  "next": {
-    "title": "Summary",
-    "permalink": "/docs/Initial Compromise/Summary"
+  "previous": {
+    "title": "Stolen Credentials",
+    "permalink": "/docs/Initial Compromise/Stolen Credentials"
   }
 }

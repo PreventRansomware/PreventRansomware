@@ -6,11 +6,6 @@
   "docsSidebars": {
     "tutorialSidebar": [
       {
-        "type": "link",
-        "label": "Introduction",
-        "href": "/docs/intro"
-      },
-      {
         "type": "category",
         "label": "Inital Access",
         "items": [
@@ -41,6 +36,11 @@
           }
         ],
         "collapsed": true
+      },
+      {
+        "type": "link",
+        "label": "Introduction",
+        "href": "/docs/intro"
       }
     ]
   },
