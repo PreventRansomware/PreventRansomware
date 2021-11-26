@@ -1,4 +1,4 @@
-### Prevent Ransomware 
+## Prevent Ransomware 
  
 Prevent Ransomware is a free open source collection of guides and advice which aim to beat ransomware via education. This git repo contains documentation as code which will be peer reviewed and verified before being made accesible for free with no strings attached at https://preventransomware.io 
 
