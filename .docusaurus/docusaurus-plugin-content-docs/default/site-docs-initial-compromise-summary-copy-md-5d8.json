@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Initial Compromise/Summary copy",
+  "id": "Initial Compromise/Summary copy",
+  "isDocsHomePage": false,
+  "title": "Summary copy",
+  "description": "As established in the introduction, attackers want to use the path of least resistance to compromise your network. This usually means exploiting the same handful of tried and true tactics which rely on common misconfigurations and bad security practices.",
+  "source": "@site/docs/Initial Compromise/Summary copy.md",
+  "sourceDirName": "Initial Compromise",
+  "slug": "/Initial Compromise/Summary copy",
+  "permalink": "/docs/Initial Compromise/Summary copy",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Initial Compromise/Summary copy.md",
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/docs/intro"
+  },
+  "next": {
+    "title": "Summary",
+    "permalink": "/docs/Initial Compromise/Summary"
+  }
+}

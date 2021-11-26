@@ -16,8 +16,18 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Initial Compromise/Permissive Firewall Rules",
+              "path": "/docs/Initial Compromise/Permissive Firewall Rules",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Initial Compromise/Phishing Attacks",
               "path": "/docs/Initial Compromise/Phishing Attacks",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Initial Compromise/Stolen Credentials",
+              "path": "/docs/Initial Compromise/Stolen Credentials",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -28,11 +38,6 @@
             {
               "id": "intro",
               "path": "/docs/intro",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Post Compromise/Stolen Credentials",
-              "path": "/docs/Post Compromise/Stolen Credentials",
               "sidebar": "tutorialSidebar"
             }
           ]

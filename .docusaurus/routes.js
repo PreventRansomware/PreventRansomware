@@ -49,7 +49,7 @@ export default [
 },
 {
   path: '/docs',
-  component: ComponentCreator('/docs','93e'),
+  component: ComponentCreator('/docs','3a6'),
   
   routes: [
 {
@@ -58,8 +58,18 @@ export default [
   exact: true,
 },
 {
+  path: '/docs/Initial Compromise/Permissive Firewall Rules',
+  component: ComponentCreator('/docs/Initial Compromise/Permissive Firewall Rules','6a4'),
+  exact: true,
+},
+{
   path: '/docs/Initial Compromise/Phishing Attacks',
   component: ComponentCreator('/docs/Initial Compromise/Phishing Attacks','541'),
+  exact: true,
+},
+{
+  path: '/docs/Initial Compromise/Stolen Credentials',
+  component: ComponentCreator('/docs/Initial Compromise/Stolen Credentials','bc0'),
   exact: true,
 },
 {
@@ -70,11 +80,6 @@ export default [
 {
   path: '/docs/intro',
   component: ComponentCreator('/docs/intro','e84'),
-  exact: true,
-},
-{
-  path: '/docs/Post Compromise/Stolen Credentials',
-  component: ComponentCreator('/docs/Post Compromise/Stolen Credentials','df9'),
   exact: true,
 },
 ]

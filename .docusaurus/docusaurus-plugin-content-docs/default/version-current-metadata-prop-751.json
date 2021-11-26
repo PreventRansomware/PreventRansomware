@@ -26,20 +26,18 @@
           },
           {
             "type": "link",
+            "label": "Permissive Firewall Rules",
+            "href": "/docs/Initial Compromise/Permissive Firewall Rules"
+          },
+          {
+            "type": "link",
             "label": "Phishing Attacks",
             "href": "/docs/Initial Compromise/Phishing Attacks"
-          }
-        ],
-        "collapsed": true
-      },
-      {
-        "type": "category",
-        "label": "Post Compromise",
-        "items": [
+          },
           {
             "type": "link",
             "label": "Stolen Credentials",
-            "href": "/docs/Post Compromise/Stolen Credentials"
+            "href": "/docs/Initial Compromise/Stolen Credentials"
           }
         ],
         "collapsed": true
@@ -48,9 +46,10 @@
   },
   "permalinkToSidebar": {
     "/docs/Initial Compromise/Explotation Of Networking Appliances": "tutorialSidebar",
+    "/docs/Initial Compromise/Permissive Firewall Rules": "tutorialSidebar",
     "/docs/Initial Compromise/Phishing Attacks": "tutorialSidebar",
+    "/docs/Initial Compromise/Stolen Credentials": "tutorialSidebar",
     "/docs/Initial Compromise/Summary": "tutorialSidebar",
-    "/docs/intro": "tutorialSidebar",
-    "/docs/Post Compromise/Stolen Credentials": "tutorialSidebar"
+    "/docs/intro": "tutorialSidebar"
   }
 }

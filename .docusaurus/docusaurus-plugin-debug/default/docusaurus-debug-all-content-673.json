@@ -34,18 +34,15 @@
                   },
                   {
                     "type": "doc",
-                    "id": "Initial Compromise/Phishing Attacks"
-                  }
-                ],
-                "collapsed": true
-              },
-              {
-                "type": "category",
-                "label": "Post Compromise",
-                "items": [
+                    "id": "Initial Compromise/Permissive Firewall Rules"
+                  },
                   {
                     "type": "doc",
-                    "id": "Post Compromise/Stolen Credentials"
+                    "id": "Initial Compromise/Phishing Attacks"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Initial Compromise/Stolen Credentials"
                   }
                 ],
                 "collapsed": true
@@ -54,10 +51,11 @@
           },
           "permalinkToSidebar": {
             "/docs/Initial Compromise/Explotation Of Networking Appliances": "tutorialSidebar",
+            "/docs/Initial Compromise/Permissive Firewall Rules": "tutorialSidebar",
             "/docs/Initial Compromise/Phishing Attacks": "tutorialSidebar",
+            "/docs/Initial Compromise/Stolen Credentials": "tutorialSidebar",
             "/docs/Initial Compromise/Summary": "tutorialSidebar",
-            "/docs/intro": "tutorialSidebar",
-            "/docs/Post Compromise/Stolen Credentials": "tutorialSidebar"
+            "/docs/intro": "tutorialSidebar"
           },
           "docs": [
             {
@@ -82,6 +80,31 @@
                 "permalink": "/docs/Initial Compromise/Summary"
               },
               "next": {
+                "title": "Permissive Firewall Rules",
+                "permalink": "/docs/Initial Compromise/Permissive Firewall Rules"
+              }
+            },
+            {
+              "unversionedId": "Initial Compromise/Permissive Firewall Rules",
+              "id": "Initial Compromise/Permissive Firewall Rules",
+              "isDocsHomePage": false,
+              "title": "Permissive Firewall Rules",
+              "description": "",
+              "source": "@site/docs/Initial Compromise/Permissive Firewall Rules.md",
+              "sourceDirName": "Initial Compromise",
+              "slug": "/Initial Compromise/Permissive Firewall Rules",
+              "permalink": "/docs/Initial Compromise/Permissive Firewall Rules",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Initial Compromise/Permissive Firewall Rules.md",
+              "version": "current",
+              "frontMatter": {
+                "sidebar\\_position": 5
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Explotation Of Networking Appliances",
+                "permalink": "/docs/Initial Compromise/Explotation Of Networking Appliances"
+              },
+              "next": {
                 "title": "Phishing Attacks",
                 "permalink": "/docs/Initial Compromise/Phishing Attacks"
               }
@@ -98,18 +121,38 @@
               "permalink": "/docs/Initial Compromise/Phishing Attacks",
               "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Initial Compromise/Phishing Attacks.md",
               "version": "current",
-              "sidebarPosition": 4,
               "frontMatter": {
-                "sidebar_position": 4
+                "sidebar\\_position": 4
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Explotation Of Networking Appliances",
-                "permalink": "/docs/Initial Compromise/Explotation Of Networking Appliances"
+                "title": "Permissive Firewall Rules",
+                "permalink": "/docs/Initial Compromise/Permissive Firewall Rules"
               },
               "next": {
                 "title": "Stolen Credentials",
-                "permalink": "/docs/Post Compromise/Stolen Credentials"
+                "permalink": "/docs/Initial Compromise/Stolen Credentials"
+              }
+            },
+            {
+              "unversionedId": "Initial Compromise/Stolen Credentials",
+              "id": "Initial Compromise/Stolen Credentials",
+              "isDocsHomePage": false,
+              "title": "Stolen Credentials",
+              "description": "Consumers of security tools are led to believe that Ransomware is a complex threat but in the real world this could not be further from the truth.",
+              "source": "@site/docs/Initial Compromise/Stolen Credentials.md",
+              "sourceDirName": "Initial Compromise",
+              "slug": "/Initial Compromise/Stolen Credentials",
+              "permalink": "/docs/Initial Compromise/Stolen Credentials",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Initial Compromise/Stolen Credentials.md",
+              "version": "current",
+              "frontMatter": {
+                "sidebar\\_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Phishing Attacks",
+                "permalink": "/docs/Initial Compromise/Phishing Attacks"
               }
             },
             {
@@ -158,28 +201,6 @@
               "next": {
                 "title": "Summary",
                 "permalink": "/docs/Initial Compromise/Summary"
-              }
-            },
-            {
-              "unversionedId": "Post Compromise/Stolen Credentials",
-              "id": "Post Compromise/Stolen Credentials",
-              "isDocsHomePage": false,
-              "title": "Stolen Credentials",
-              "description": "Consumers of security tools are led to believe that Ransomware is a complex threat but in the real world this could not be further from the truth.",
-              "source": "@site/docs/Post Compromise/Stolen Credentials.md",
-              "sourceDirName": "Post Compromise",
-              "slug": "/Post Compromise/Stolen Credentials",
-              "permalink": "/docs/Post Compromise/Stolen Credentials",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Post Compromise/Stolen Credentials.md",
-              "version": "current",
-              "sidebarPosition": 4,
-              "frontMatter": {
-                "sidebar_position": 4
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Phishing Attacks",
-                "permalink": "/docs/Initial Compromise/Phishing Attacks"
               }
             }
           ]

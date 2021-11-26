@@ -10,17 +10,16 @@
   "permalink": "/docs/Initial Compromise/Phishing Attacks",
   "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Initial Compromise/Phishing Attacks.md",
   "version": "current",
-  "sidebarPosition": 4,
   "frontMatter": {
-    "sidebar_position": 4
+    "sidebar\\_position": 4
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Explotation Of Networking Appliances",
-    "permalink": "/docs/Initial Compromise/Explotation Of Networking Appliances"
+    "title": "Permissive Firewall Rules",
+    "permalink": "/docs/Initial Compromise/Permissive Firewall Rules"
   },
   "next": {
     "title": "Stolen Credentials",
-    "permalink": "/docs/Post Compromise/Stolen Credentials"
+    "permalink": "/docs/Initial Compromise/Stolen Credentials"
   }
 }

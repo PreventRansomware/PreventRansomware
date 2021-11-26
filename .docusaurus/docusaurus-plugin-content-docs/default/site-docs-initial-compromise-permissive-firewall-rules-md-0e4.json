@@ -1,0 +1,25 @@
+{
+  "unversionedId": "Initial Compromise/Permissive Firewall Rules",
+  "id": "Initial Compromise/Permissive Firewall Rules",
+  "isDocsHomePage": false,
+  "title": "Permissive Firewall Rules",
+  "description": "",
+  "source": "@site/docs/Initial Compromise/Permissive Firewall Rules.md",
+  "sourceDirName": "Initial Compromise",
+  "slug": "/Initial Compromise/Permissive Firewall Rules",
+  "permalink": "/docs/Initial Compromise/Permissive Firewall Rules",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Initial Compromise/Permissive Firewall Rules.md",
+  "version": "current",
+  "frontMatter": {
+    "sidebar\\_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Explotation Of Networking Appliances",
+    "permalink": "/docs/Initial Compromise/Explotation Of Networking Appliances"
+  },
+  "next": {
+    "title": "Phishing Attacks",
+    "permalink": "/docs/Initial Compromise/Phishing Attacks"
+  }
+}

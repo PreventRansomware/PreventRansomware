@@ -1,0 +1,25 @@
+{
+  "unversionedId": "Initial Compromise/PermissiveFirewalls",
+  "id": "Initial Compromise/PermissiveFirewalls",
+  "isDocsHomePage": false,
+  "title": "PermissiveFirewalls",
+  "description": "",
+  "source": "@site/docs/Initial Compromise/PermissiveFirewalls.md",
+  "sourceDirName": "Initial Compromise",
+  "slug": "/Initial Compromise/PermissiveFirewalls",
+  "permalink": "/docs/Initial Compromise/PermissiveFirewalls",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Initial Compromise/PermissiveFirewalls.md",
+  "version": "current",
+  "frontMatter": {
+    "sidebar\\_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Explotation Of Networking Appliances",
+    "permalink": "/docs/Initial Compromise/Explotation Of Networking Appliances"
+  },
+  "next": {
+    "title": "Phishing Attacks",
+    "permalink": "/docs/Initial Compromise/Phishing Attacks"
+  }
+}
