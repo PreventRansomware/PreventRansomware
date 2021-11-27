@@ -6,6 +6,11 @@
   "docsSidebars": {
     "tutorialSidebar": [
       {
+        "type": "link",
+        "label": "Introduction",
+        "href": "/docs/intro"
+      },
+      {
         "type": "category",
         "label": "Inital Access",
         "items": [
@@ -21,8 +26,8 @@
           },
           {
             "type": "link",
-            "label": "Permissive Firewall Rules",
-            "href": "/docs/Initial Compromise/Permissive Firewall Rules"
+            "label": "Stolen Credentials",
+            "href": "/docs/Initial Compromise/Stolen Credentials"
           },
           {
             "type": "link",
@@ -31,16 +36,11 @@
           },
           {
             "type": "link",
-            "label": "Stolen Credentials",
-            "href": "/docs/Initial Compromise/Stolen Credentials"
+            "label": "Permissive Firewall Rules",
+            "href": "/docs/Initial Compromise/Permissive Firewall Rules"
           }
         ],
         "collapsed": true
-      },
-      {
-        "type": "link",
-        "label": "Introduction",
-        "href": "/docs/intro"
       }
     ]
   },

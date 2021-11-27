@@ -13,9 +13,13 @@
           "sidebarFilePath": "/Users/charlie/git/PreventRansomware/sidebars.js",
           "contentPath": "/Users/charlie/git/PreventRansomware/docs",
           "contentPathLocalized": "/Users/charlie/git/PreventRansomware/i18n/en/docusaurus-plugin-content-docs/current",
-          "mainDocId": "Initial Compromise/Summary",
+          "mainDocId": "intro",
           "sidebars": {
             "tutorialSidebar": [
+              {
+                "type": "doc",
+                "id": "intro"
+              },
               {
                 "type": "category",
                 "label": "Inital Access",
@@ -30,7 +34,7 @@
                   },
                   {
                     "type": "doc",
-                    "id": "Initial Compromise/Permissive Firewall Rules"
+                    "id": "Initial Compromise/Stolen Credentials"
                   },
                   {
                     "type": "doc",
@@ -38,14 +42,10 @@
                   },
                   {
                     "type": "doc",
-                    "id": "Initial Compromise/Stolen Credentials"
+                    "id": "Initial Compromise/Permissive Firewall Rules"
                   }
                 ],
                 "collapsed": true
-              },
-              {
-                "type": "doc",
-                "id": "intro"
               }
             ]
           },
@@ -80,8 +80,8 @@
                 "permalink": "/docs/Initial Compromise/Summary"
               },
               "next": {
-                "title": "Permissive Firewall Rules",
-                "permalink": "/docs/Initial Compromise/Permissive Firewall Rules"
+                "title": "Stolen Credentials",
+                "permalink": "/docs/Initial Compromise/Stolen Credentials"
               }
             },
             {
@@ -89,22 +89,19 @@
               "id": "Initial Compromise/Permissive Firewall Rules",
               "isDocsHomePage": false,
               "title": "Permissive Firewall Rules",
-              "description": "",
+              "description": "Firewalls sit at the edge of a network to protect its internal network from the cold, harsh wild-lands of the internet. Unfortunately having pesky firewalls on the perimeter means key ports are often blocked, key ports like RDP. (TCP 3389) RDP is used for remote system administration and user access which has increased during the COVID-19 outbreak. Thanks to this increase and plain bad system administration, many networks have exposed RDP directly to the open internet. At the time of writing there are over three million RDP ports open as per Shodan.",
               "source": "@site/docs/Initial Compromise/Permissive Firewall Rules.md",
               "sourceDirName": "Initial Compromise",
               "slug": "/Initial Compromise/Permissive Firewall Rules",
               "permalink": "/docs/Initial Compromise/Permissive Firewall Rules",
               "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Initial Compromise/Permissive Firewall Rules.md",
               "version": "current",
+              "sidebarPosition": 6,
               "frontMatter": {
-                "sidebar\\_position": 5
+                "sidebar_position": 6
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Explotation Of Networking Appliances",
-                "permalink": "/docs/Initial Compromise/Explotation Of Networking Appliances"
-              },
-              "next": {
                 "title": "Phishing Attacks",
                 "permalink": "/docs/Initial Compromise/Phishing Attacks"
               }
@@ -114,24 +111,25 @@
               "id": "Initial Compromise/Phishing Attacks",
               "isDocsHomePage": false,
               "title": "Phishing Attacks",
-              "description": "Phishing attacks come in many flavours, almost all of them are enjoyed by ransomware operators and in fact phishing is one of the most common ways for ransomware to seep into a network either directly or indirectly. As an attack technique its popularity is probably fuelled by its success, relying on arguably the weakest link in cyber defences, people.",
+              "description": "Phishing attacks come in many flavours, almost all of them are enjoyed by ransomware operators and in fact phishing is one of the most common ways for ransomware to seep into a network either directly or indirectly. As an attack technique its popularity is probably fuelled by its success which relies on arguably the weakest link in cyber defences, people.",
               "source": "@site/docs/Initial Compromise/Phishing Attacks.md",
               "sourceDirName": "Initial Compromise",
               "slug": "/Initial Compromise/Phishing Attacks",
               "permalink": "/docs/Initial Compromise/Phishing Attacks",
               "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Initial Compromise/Phishing Attacks.md",
               "version": "current",
+              "sidebarPosition": 5,
               "frontMatter": {
-                "sidebar\\_position": 4
+                "sidebar_position": 5
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Permissive Firewall Rules",
-                "permalink": "/docs/Initial Compromise/Permissive Firewall Rules"
-              },
-              "next": {
                 "title": "Stolen Credentials",
                 "permalink": "/docs/Initial Compromise/Stolen Credentials"
+              },
+              "next": {
+                "title": "Permissive Firewall Rules",
+                "permalink": "/docs/Initial Compromise/Permissive Firewall Rules"
               }
             },
             {
@@ -146,17 +144,18 @@
               "permalink": "/docs/Initial Compromise/Stolen Credentials",
               "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Initial Compromise/Stolen Credentials.md",
               "version": "current",
+              "sidebarPosition": 4,
               "frontMatter": {
-                "sidebar\\_position": 4
+                "sidebar_position": 4
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Phishing Attacks",
-                "permalink": "/docs/Initial Compromise/Phishing Attacks"
+                "title": "Explotation Of Networking Appliances",
+                "permalink": "/docs/Initial Compromise/Explotation Of Networking Appliances"
               },
               "next": {
-                "title": "Introduction",
-                "permalink": "/docs/intro"
+                "title": "Phishing Attacks",
+                "permalink": "/docs/Initial Compromise/Phishing Attacks"
               }
             },
             {
@@ -176,6 +175,10 @@
                 "sidebar_position": 1
               },
               "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Introduction",
+                "permalink": "/docs/intro"
+              },
               "next": {
                 "title": "Explotation Of Networking Appliances",
                 "permalink": "/docs/Initial Compromise/Explotation Of Networking Appliances"
@@ -193,13 +196,14 @@
               "permalink": "/docs/intro",
               "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/intro.md",
               "version": "current",
+              "sidebarPosition": 1,
               "frontMatter": {
-                "sidebar\\_position": 1
+                "sidebar_position": 1
               },
               "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Stolen Credentials",
-                "permalink": "/docs/Initial Compromise/Stolen Credentials"
+              "next": {
+                "title": "Summary",
+                "permalink": "/docs/Initial Compromise/Summary"
               }
             }
           ]

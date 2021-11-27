@@ -3,22 +3,19 @@
   "id": "Initial Compromise/Permissive Firewall Rules",
   "isDocsHomePage": false,
   "title": "Permissive Firewall Rules",
-  "description": "",
+  "description": "Firewalls sit at the edge of a network to protect its internal network from the cold, harsh wild-lands of the internet. Unfortunately having pesky firewalls on the perimeter means key ports are often blocked, key ports like RDP. (TCP 3389) RDP is used for remote system administration and user access which has increased during the COVID-19 outbreak. Thanks to this increase and plain bad system administration, many networks have exposed RDP directly to the open internet. At the time of writing there are over three million RDP ports open as per Shodan.",
   "source": "@site/docs/Initial Compromise/Permissive Firewall Rules.md",
   "sourceDirName": "Initial Compromise",
   "slug": "/Initial Compromise/Permissive Firewall Rules",
   "permalink": "/docs/Initial Compromise/Permissive Firewall Rules",
   "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Initial Compromise/Permissive Firewall Rules.md",
   "version": "current",
+  "sidebarPosition": 6,
   "frontMatter": {
-    "sidebar\\_position": 5
+    "sidebar_position": 6
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Explotation Of Networking Appliances",
-    "permalink": "/docs/Initial Compromise/Explotation Of Networking Appliances"
-  },
-  "next": {
     "title": "Phishing Attacks",
     "permalink": "/docs/Initial Compromise/Phishing Attacks"
   }
