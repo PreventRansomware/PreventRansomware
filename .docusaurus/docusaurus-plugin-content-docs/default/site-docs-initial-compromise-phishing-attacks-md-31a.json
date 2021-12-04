@@ -10,17 +10,16 @@
   "permalink": "/docs/Initial Compromise/Phishing Attacks",
   "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Initial Compromise/Phishing Attacks.md",
   "version": "current",
-  "sidebarPosition": 5,
   "frontMatter": {
-    "sidebar_position": 5
+    "sidebar\\_position": 5
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Stolen Credentials",
-    "permalink": "/docs/Initial Compromise/Stolen Credentials"
-  },
-  "next": {
     "title": "Permissive Firewall Rules",
     "permalink": "/docs/Initial Compromise/Permissive Firewall Rules"
+  },
+  "next": {
+    "title": "Stolen Credentials",
+    "permalink": "/docs/Initial Compromise/Stolen Credentials"
   }
 }

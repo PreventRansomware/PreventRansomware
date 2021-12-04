@@ -34,7 +34,7 @@
                   },
                   {
                     "type": "doc",
-                    "id": "Initial Compromise/Stolen Credentials"
+                    "id": "Initial Compromise/Permissive Firewall Rules"
                   },
                   {
                     "type": "doc",
@@ -42,7 +42,29 @@
                   },
                   {
                     "type": "doc",
-                    "id": "Initial Compromise/Permissive Firewall Rules"
+                    "id": "Initial Compromise/Stolen Credentials"
+                  }
+                ],
+                "collapsed": true
+              },
+              {
+                "type": "category",
+                "label": "Post Compromise",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "Post Compromise/intro"
+                  }
+                ],
+                "collapsed": true
+              },
+              {
+                "type": "category",
+                "label": "Lists",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "Lists/Bad eMail File Extensions"
                   }
                 ],
                 "collapsed": true
@@ -55,7 +77,9 @@
             "/docs/Initial Compromise/Phishing Attacks": "tutorialSidebar",
             "/docs/Initial Compromise/Stolen Credentials": "tutorialSidebar",
             "/docs/Initial Compromise/Summary": "tutorialSidebar",
-            "/docs/intro": "tutorialSidebar"
+            "/docs/intro": "tutorialSidebar",
+            "/docs/Lists/Bad eMail File Extensions": "tutorialSidebar",
+            "/docs/Post Compromise/intro": "tutorialSidebar"
           },
           "docs": [
             {
@@ -80,8 +104,8 @@
                 "permalink": "/docs/Initial Compromise/Summary"
               },
               "next": {
-                "title": "Stolen Credentials",
-                "permalink": "/docs/Initial Compromise/Stolen Credentials"
+                "title": "Permissive Firewall Rules",
+                "permalink": "/docs/Initial Compromise/Permissive Firewall Rules"
               }
             },
             {
@@ -89,19 +113,22 @@
               "id": "Initial Compromise/Permissive Firewall Rules",
               "isDocsHomePage": false,
               "title": "Permissive Firewall Rules",
-              "description": "Firewalls sit at the edge of a network to protect its internal network from the cold, harsh wild-lands of the internet. Unfortunately having pesky firewalls on the perimeter means key ports are often blocked, key ports like RDP. (TCP 3389) RDP is used for remote system administration and user access which has increased during the COVID-19 outbreak. Thanks to this increase and plain bad system administration, many networks have exposed RDP directly to the open internet. At the time of writing there are over three million RDP ports open as per Shodan.",
+              "description": "Firewalls filter traffic that travels in and out of a network. In an ideal world your firewall should allow nothing in and only the bare minimum out. Unfortunately this isn’t how the real world works. System administrators need to open ports for an array of business reasons, attackers know this and scour the internet for open ports that they can breach a network with.",
               "source": "@site/docs/Initial Compromise/Permissive Firewall Rules.md",
               "sourceDirName": "Initial Compromise",
               "slug": "/Initial Compromise/Permissive Firewall Rules",
               "permalink": "/docs/Initial Compromise/Permissive Firewall Rules",
               "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Initial Compromise/Permissive Firewall Rules.md",
               "version": "current",
-              "sidebarPosition": 6,
               "frontMatter": {
-                "sidebar_position": 6
+                "sidebar\\_position": 6
               },
               "sidebar": "tutorialSidebar",
               "previous": {
+                "title": "Explotation Of Networking Appliances",
+                "permalink": "/docs/Initial Compromise/Explotation Of Networking Appliances"
+              },
+              "next": {
                 "title": "Phishing Attacks",
                 "permalink": "/docs/Initial Compromise/Phishing Attacks"
               }
@@ -118,18 +145,17 @@
               "permalink": "/docs/Initial Compromise/Phishing Attacks",
               "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Initial Compromise/Phishing Attacks.md",
               "version": "current",
-              "sidebarPosition": 5,
               "frontMatter": {
-                "sidebar_position": 5
+                "sidebar\\_position": 5
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Stolen Credentials",
-                "permalink": "/docs/Initial Compromise/Stolen Credentials"
-              },
-              "next": {
                 "title": "Permissive Firewall Rules",
                 "permalink": "/docs/Initial Compromise/Permissive Firewall Rules"
+              },
+              "next": {
+                "title": "Stolen Credentials",
+                "permalink": "/docs/Initial Compromise/Stolen Credentials"
               }
             },
             {
@@ -137,25 +163,24 @@
               "id": "Initial Compromise/Stolen Credentials",
               "isDocsHomePage": false,
               "title": "Stolen Credentials",
-              "description": "It's common for ransomware gangs to break into organisations simply by logging into a network with stolen, guessed or purchased credentials. Yes, that's right, hackers are just literally just logging in to your network to deploy ransomware.",
+              "description": "It's common for ransomware gangs to break into organisations simply by logging into a network with stolen, guessed or purchased credentials. Yes, that's right, hackers are just just logging in to your network to deploy ransomware.",
               "source": "@site/docs/Initial Compromise/Stolen Credentials.md",
               "sourceDirName": "Initial Compromise",
               "slug": "/Initial Compromise/Stolen Credentials",
               "permalink": "/docs/Initial Compromise/Stolen Credentials",
               "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Initial Compromise/Stolen Credentials.md",
               "version": "current",
-              "sidebarPosition": 4,
               "frontMatter": {
-                "sidebar_position": 4
+                "sidebar\\_position": 4
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Explotation Of Networking Appliances",
-                "permalink": "/docs/Initial Compromise/Explotation Of Networking Appliances"
-              },
-              "next": {
                 "title": "Phishing Attacks",
                 "permalink": "/docs/Initial Compromise/Phishing Attacks"
+              },
+              "next": {
+                "title": "Introduction",
+                "permalink": "/docs/Post Compromise/intro"
               }
             },
             {
@@ -204,6 +229,52 @@
               "next": {
                 "title": "Summary",
                 "permalink": "/docs/Initial Compromise/Summary"
+              }
+            },
+            {
+              "unversionedId": "Lists/Bad eMail File Extensions",
+              "id": "Lists/Bad eMail File Extensions",
+              "isDocsHomePage": false,
+              "title": "Bad eMail File Extensions",
+              "description": "In an ideal world the following file extensions should not be allowed through your eMail gateway. This list isn’t universal and may not be suitable for every organisation but instead should work as a guideline. You may find your business actually needs a particular file extension for their business, thats fine.",
+              "source": "@site/docs/Lists/Bad eMail File Extensions.md",
+              "sourceDirName": "Lists",
+              "slug": "/Lists/Bad eMail File Extensions",
+              "permalink": "/docs/Lists/Bad eMail File Extensions",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Lists/Bad eMail File Extensions.md",
+              "version": "current",
+              "frontMatter": {
+                "sidebar\\_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Introduction",
+                "permalink": "/docs/Post Compromise/intro"
+              }
+            },
+            {
+              "unversionedId": "Post Compromise/intro",
+              "id": "Post Compromise/intro",
+              "isDocsHomePage": false,
+              "title": "Introduction",
+              "description": "Once a ransomware operator has gotten onto your network they want to achieve fairly predictable objectives. In most cases the attacker will:",
+              "source": "@site/docs/Post Compromise/intro.md",
+              "sourceDirName": "Post Compromise",
+              "slug": "/Post Compromise/intro",
+              "permalink": "/docs/Post Compromise/intro",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Post Compromise/intro.md",
+              "version": "current",
+              "frontMatter": {
+                "sidebar\\_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Stolen Credentials",
+                "permalink": "/docs/Initial Compromise/Stolen Credentials"
+              },
+              "next": {
+                "title": "Bad eMail File Extensions",
+                "permalink": "/docs/Lists/Bad eMail File Extensions"
               }
             }
           ]

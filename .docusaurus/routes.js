@@ -49,7 +49,7 @@ export default [
 },
 {
   path: '/docs',
-  component: ComponentCreator('/docs','3a6'),
+  component: ComponentCreator('/docs','cf4'),
   
   routes: [
 {
@@ -80,6 +80,16 @@ export default [
 {
   path: '/docs/intro',
   component: ComponentCreator('/docs/intro','e84'),
+  exact: true,
+},
+{
+  path: '/docs/Lists/Bad eMail File Extensions',
+  component: ComponentCreator('/docs/Lists/Bad eMail File Extensions','005'),
+  exact: true,
+},
+{
+  path: '/docs/Post Compromise/intro',
+  component: ComponentCreator('/docs/Post Compromise/intro','87f'),
   exact: true,
 },
 ]

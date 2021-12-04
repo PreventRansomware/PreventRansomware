@@ -39,6 +39,16 @@
               "id": "intro",
               "path": "/docs/intro",
               "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Lists/Bad eMail File Extensions",
+              "path": "/docs/Lists/Bad eMail File Extensions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Post Compromise/intro",
+              "path": "/docs/Post Compromise/intro",
+              "sidebar": "tutorialSidebar"
             }
           ]
         }

@@ -6,7 +6,7 @@ Firewalls filter traffic that travels in and out of a network. In an ideal world
 
  Remote Desktop (RDP for short) runs on port 3389, its used for remote system administration and user access which has increased during the COVID-19 outbreak. Thanks to this increase and plain bad firewall administration, many networks have exposed RDP directly to the open internet. At the time of writing there are over [three million RDP ports open as per Shodan][1].
   
-This is bad because it means an attack could exploit a [vulnerability in Microsofts RDP protocol][2] or guess a working username and password combination to have instant, persistent access to a victim network. The latter has become popular with [ransomware gangs.][3]
+This is bad because it means an attack could exploit a [vulnerability in Microsofts RDP protocol][2] or guess a working username and password combination to have instant, persistent access to a victim network. The latter has become popular with [ransomware operators.][3]
 
 Having RDP open to the internet is akin to leaving your front door wide open. You should work to ensure **administrative ports like 3389 are not allowed inbound.** If for some reason the business does require RDP or SSH inbound, traffic should be restricted to a particular source IP address and if possible only allowed when needed such as during working hours. Ideally these management type ports should be closed and stay closed.
 
