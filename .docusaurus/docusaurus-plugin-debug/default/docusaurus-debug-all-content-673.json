@@ -53,7 +53,11 @@
                 "items": [
                   {
                     "type": "doc",
-                    "id": "Post Compromise/intro"
+                    "id": "Post Compromise/introduction"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Post Compromise/persistance"
                   }
                 ],
                 "collapsed": true
@@ -79,7 +83,8 @@
             "/docs/Initial Compromise/Summary": "tutorialSidebar",
             "/docs/intro": "tutorialSidebar",
             "/docs/Lists/Bad eMail File Extensions": "tutorialSidebar",
-            "/docs/Post Compromise/intro": "tutorialSidebar"
+            "/docs/Post Compromise/introduction": "tutorialSidebar",
+            "/docs/Post Compromise/persistance": "tutorialSidebar"
           },
           "docs": [
             {
@@ -180,7 +185,7 @@
               },
               "next": {
                 "title": "Introduction",
-                "permalink": "/docs/Post Compromise/intro"
+                "permalink": "/docs/Post Compromise/introduction"
               }
             },
             {
@@ -248,21 +253,21 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Introduction",
-                "permalink": "/docs/Post Compromise/intro"
+                "title": "Persistence",
+                "permalink": "/docs/Post Compromise/persistance"
               }
             },
             {
-              "unversionedId": "Post Compromise/intro",
-              "id": "Post Compromise/intro",
+              "unversionedId": "Post Compromise/introduction",
+              "id": "Post Compromise/introduction",
               "isDocsHomePage": false,
               "title": "Introduction",
               "description": "Once a ransomware operator has gotten onto your network they want to achieve fairly predictable objectives. In most cases the attacker will:",
-              "source": "@site/docs/Post Compromise/intro.md",
+              "source": "@site/docs/Post Compromise/introduction.md",
               "sourceDirName": "Post Compromise",
-              "slug": "/Post Compromise/intro",
-              "permalink": "/docs/Post Compromise/intro",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Post Compromise/intro.md",
+              "slug": "/Post Compromise/introduction",
+              "permalink": "/docs/Post Compromise/introduction",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Post Compromise/introduction.md",
               "version": "current",
               "frontMatter": {
                 "sidebar\\_position": 1
@@ -271,6 +276,31 @@
               "previous": {
                 "title": "Stolen Credentials",
                 "permalink": "/docs/Initial Compromise/Stolen Credentials"
+              },
+              "next": {
+                "title": "Persistence",
+                "permalink": "/docs/Post Compromise/persistance"
+              }
+            },
+            {
+              "unversionedId": "Post Compromise/persistance",
+              "id": "Post Compromise/persistance",
+              "isDocsHomePage": false,
+              "title": "Persistence",
+              "description": "The first point of entry for attackers is known as “the initial foothold” This term encompasses credentials or a computer system that hackers have managed to gain some form of control over. Once an attacker has this control they need to ensure they can keep hold of it and come back to it at a later time, this is known as persistence.",
+              "source": "@site/docs/Post Compromise/persistance.md",
+              "sourceDirName": "Post Compromise",
+              "slug": "/Post Compromise/persistance",
+              "permalink": "/docs/Post Compromise/persistance",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Post Compromise/persistance.md",
+              "version": "current",
+              "frontMatter": {
+                "sidebar\\_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Introduction",
+                "permalink": "/docs/Post Compromise/introduction"
               },
               "next": {
                 "title": "Bad eMail File Extensions",

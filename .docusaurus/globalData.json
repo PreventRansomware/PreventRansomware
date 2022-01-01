@@ -46,8 +46,13 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Post Compromise/intro",
-              "path": "/docs/Post Compromise/intro",
+              "id": "Post Compromise/introduction",
+              "path": "/docs/Post Compromise/introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Post Compromise/persistance",
+              "path": "/docs/Post Compromise/persistance",
               "sidebar": "tutorialSidebar"
             }
           ]

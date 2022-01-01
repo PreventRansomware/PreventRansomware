@@ -49,7 +49,12 @@
           {
             "type": "link",
             "label": "Introduction",
-            "href": "/docs/Post Compromise/intro"
+            "href": "/docs/Post Compromise/introduction"
+          },
+          {
+            "type": "link",
+            "label": "Persistence",
+            "href": "/docs/Post Compromise/persistance"
           }
         ],
         "collapsed": true
@@ -76,6 +81,7 @@
     "/docs/Initial Compromise/Summary": "tutorialSidebar",
     "/docs/intro": "tutorialSidebar",
     "/docs/Lists/Bad eMail File Extensions": "tutorialSidebar",
-    "/docs/Post Compromise/intro": "tutorialSidebar"
+    "/docs/Post Compromise/introduction": "tutorialSidebar",
+    "/docs/Post Compromise/persistance": "tutorialSidebar"
   }
 }

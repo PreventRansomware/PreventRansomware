@@ -15,8 +15,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Stolen Credentials",
-    "permalink": "/docs/Initial Compromise/Stolen Credentials"
+    "title": "Summary",
+    "permalink": "/docs/Post Compromise/Summary"
   },
   "next": {
     "title": "Bad eMail File Extensions",
