@@ -52,12 +52,8 @@ export default {
           "title": "Community",
           "items": [
             {
-              "label": "Slack",
-              "href": "https://preventransomware.slack.com"
-            },
-            {
               "label": "Twitter",
-              "href": "https://twitter.com/docusaurus"
+              "href": "https://twitter.com/preventransom"
             }
           ]
         },
@@ -294,11 +290,11 @@ export default {
       {
         "docs": {
           "sidebarPath": "/Users/charlie/git/PreventRansomware/sidebars.js",
-          "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/"
+          "editUrl": "https://github.com/PreventRansomware"
         },
         "blog": {
           "showReadingTime": true,
-          "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/blog/"
+          "editUrl": "https://github.com/PreventRansomware"
         },
         "theme": {
           "customCss": "/Users/charlie/git/PreventRansomware/src/css/custom.css"

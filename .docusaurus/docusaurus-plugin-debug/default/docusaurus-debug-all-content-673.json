@@ -6,8 +6,8 @@
           "versionName": "current",
           "versionLabel": "Next",
           "versionPath": "/docs",
-          "versionEditUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs",
-          "versionEditUrlLocalized": "https://github.com/facebook/docusaurus/edit/master/website/i18n/en/docusaurus-plugin-content-docs/current",
+          "versionEditUrl": "https://github.com/PreventRansomware/docs",
+          "versionEditUrlLocalized": "https://github.com/PreventRansomware/i18n/en/docusaurus-plugin-content-docs/current",
           "isLast": true,
           "routePriority": -1,
           "sidebarFilePath": "/Users/charlie/git/PreventRansomware/sidebars.js",
@@ -97,7 +97,7 @@
               "sourceDirName": "Initial Compromise",
               "slug": "/Initial Compromise/Explotation Of Networking Appliances",
               "permalink": "/docs/Initial Compromise/Explotation Of Networking Appliances",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Initial Compromise/Explotation Of Networking Appliances.md",
+              "editUrl": "https://github.com/PreventRansomware/docs/Initial Compromise/Explotation Of Networking Appliances.md",
               "version": "current",
               "sidebarPosition": 2,
               "frontMatter": {
@@ -123,7 +123,7 @@
               "sourceDirName": "Initial Compromise",
               "slug": "/Initial Compromise/Permissive Firewall Rules",
               "permalink": "/docs/Initial Compromise/Permissive Firewall Rules",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Initial Compromise/Permissive Firewall Rules.md",
+              "editUrl": "https://github.com/PreventRansomware/docs/Initial Compromise/Permissive Firewall Rules.md",
               "version": "current",
               "frontMatter": {
                 "sidebar\\_position": 6
@@ -148,7 +148,7 @@
               "sourceDirName": "Initial Compromise",
               "slug": "/Initial Compromise/Phishing Attacks",
               "permalink": "/docs/Initial Compromise/Phishing Attacks",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Initial Compromise/Phishing Attacks.md",
+              "editUrl": "https://github.com/PreventRansomware/docs/Initial Compromise/Phishing Attacks.md",
               "version": "current",
               "frontMatter": {
                 "sidebar\\_position": 5
@@ -173,7 +173,7 @@
               "sourceDirName": "Initial Compromise",
               "slug": "/Initial Compromise/Stolen Credentials",
               "permalink": "/docs/Initial Compromise/Stolen Credentials",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Initial Compromise/Stolen Credentials.md",
+              "editUrl": "https://github.com/PreventRansomware/docs/Initial Compromise/Stolen Credentials.md",
               "version": "current",
               "frontMatter": {
                 "sidebar\\_position": 4
@@ -198,7 +198,7 @@
               "sourceDirName": "Initial Compromise",
               "slug": "/Initial Compromise/Summary",
               "permalink": "/docs/Initial Compromise/Summary",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Initial Compromise/Summary.md",
+              "editUrl": "https://github.com/PreventRansomware/docs/Initial Compromise/Summary.md",
               "version": "current",
               "sidebarPosition": 1,
               "frontMatter": {
@@ -224,7 +224,7 @@
               "sourceDirName": ".",
               "slug": "/intro",
               "permalink": "/docs/intro",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/intro.md",
+              "editUrl": "https://github.com/PreventRansomware/docs/intro.md",
               "version": "current",
               "sidebarPosition": 1,
               "frontMatter": {
@@ -246,7 +246,7 @@
               "sourceDirName": "Lists",
               "slug": "/Lists/Bad eMail File Extensions",
               "permalink": "/docs/Lists/Bad eMail File Extensions",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Lists/Bad eMail File Extensions.md",
+              "editUrl": "https://github.com/PreventRansomware/docs/Lists/Bad eMail File Extensions.md",
               "version": "current",
               "frontMatter": {
                 "sidebar\\_position": 1
@@ -267,7 +267,7 @@
               "sourceDirName": "Post Compromise",
               "slug": "/Post Compromise/introduction",
               "permalink": "/docs/Post Compromise/introduction",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Post Compromise/introduction.md",
+              "editUrl": "https://github.com/PreventRansomware/docs/Post Compromise/introduction.md",
               "version": "current",
               "frontMatter": {
                 "sidebar\\_position": 1
@@ -292,7 +292,7 @@
               "sourceDirName": "Post Compromise",
               "slug": "/Post Compromise/persistance",
               "permalink": "/docs/Post Compromise/persistance",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Post Compromise/persistance.md",
+              "editUrl": "https://github.com/PreventRansomware/docs/Post Compromise/persistance.md",
               "version": "current",
               "frontMatter": {
                 "sidebar\\_position": 2
