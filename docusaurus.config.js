@@ -7,7 +7,7 @@ module.exports = {
   tagline: 'Practical protection against ransomware.',
   url: 'https://preventransomware.io',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'PreventRansomware', // Usually your GitHub org/user name.
