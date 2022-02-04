@@ -3,12 +3,12 @@
   "id": "Initial Compromise/Phishing Attacks",
   "isDocsHomePage": false,
   "title": "Phishing Attacks",
-  "description": "Phishing attacks come in many flavours, almost all of them are enjoyed by ransomware operators and in fact phishing is one of the most common ways for ransomware to seep into a network either directly or indirectly. As an attack technique its popularity is probably fuelled by its success which relies on arguably the weakest link in cyber defences, people.",
+  "description": "Phishing attacks come in many flavours. Almost all of them are enjoyed by ransomware operators. Phishing is one of the most common ways for ransomware to seep into a network directly or indirectly. As an attack technique, its popularity is probably fuelled by its success which relies on the weakest link in cyber defences, people.",
   "source": "@site/docs/Initial Compromise/Phishing Attacks.md",
   "sourceDirName": "Initial Compromise",
   "slug": "/Initial Compromise/Phishing Attacks",
   "permalink": "/docs/Initial Compromise/Phishing Attacks",
-  "editUrl": "https://github.com/PreventRansomware/docs/Initial Compromise/Phishing Attacks.md",
+  "editUrl": "https://github.com/PreventRansomware/PreventRansomware/docs/Initial Compromise/Phishing Attacks.md",
   "version": "current",
   "frontMatter": {
     "sidebar\\_position": 5

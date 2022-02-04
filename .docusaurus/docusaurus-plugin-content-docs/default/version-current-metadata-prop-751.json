@@ -16,11 +16,6 @@
         "items": [
           {
             "type": "link",
-            "label": "Summary",
-            "href": "/docs/Initial Compromise/Summary"
-          },
-          {
-            "type": "link",
             "label": "Explotation Of Networking Appliances",
             "href": "/docs/Initial Compromise/Explotation Of Networking Appliances"
           },
@@ -38,6 +33,11 @@
             "type": "link",
             "label": "Stolen Credentials",
             "href": "/docs/Initial Compromise/Stolen Credentials"
+          },
+          {
+            "type": "link",
+            "label": "Summary",
+            "href": "/docs/Initial Compromise/Summary"
           }
         ],
         "collapsed": true

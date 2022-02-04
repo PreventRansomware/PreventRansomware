@@ -3,11 +3,11 @@ export default {
   "tagline": "Practical protection against ransomware.",
   "url": "https://preventransomware.io",
   "baseUrl": "/",
-  "onBrokenLinks": "throw",
+  "onBrokenLinks": "warn",
   "onBrokenMarkdownLinks": "warn",
   "favicon": "img/favicon.ico",
   "organizationName": "PreventRansomware",
-  "projectName": "Prevent Ransomware",
+  "projectName": "PreventRansomware",
   "themeConfig": {
     "navbar": {
       "title": "My Site",
@@ -290,11 +290,11 @@ export default {
       {
         "docs": {
           "sidebarPath": "/Users/charlie/git/PreventRansomware/sidebars.js",
-          "editUrl": "https://github.com/PreventRansomware"
+          "editUrl": "https://github.com/PreventRansomware/PreventRansomware"
         },
         "blog": {
           "showReadingTime": true,
-          "editUrl": "https://github.com/PreventRansomware"
+          "editUrl": "https://github.com/PreventRansomware/PreventRansomware"
         },
         "theme": {
           "customCss": "/Users/charlie/git/PreventRansomware/src/css/custom.css"

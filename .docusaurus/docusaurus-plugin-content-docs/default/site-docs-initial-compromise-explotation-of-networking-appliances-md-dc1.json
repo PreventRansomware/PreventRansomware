@@ -3,21 +3,20 @@
   "id": "Initial Compromise/Explotation Of Networking Appliances",
   "isDocsHomePage": false,
   "title": "Explotation Of Networking Appliances",
-  "description": "Networking appliances like VPNs and Citrix access gateways are often installed to grant roaming users access to internal resources like file shares and applications. These appliances straddle the gap between the internet and the internal network. This rather precarious location makes them an attractive target for attackers because successful compromise will most likely lead directly to the soft squishy center of a private network.",
+  "description": "Networking appliances like VPNs and Citrix access gateways are often installed to grant roaming users access to internal resources like file shares and applications. These appliances straddle the gap between the internet and the internal network. This somewhat hazardous location makes them an attractive target for attackers because successful compromise will most likely lead directly to the soft squishy centre of a private network.",
   "source": "@site/docs/Initial Compromise/Explotation Of Networking Appliances.md",
   "sourceDirName": "Initial Compromise",
   "slug": "/Initial Compromise/Explotation Of Networking Appliances",
   "permalink": "/docs/Initial Compromise/Explotation Of Networking Appliances",
-  "editUrl": "https://github.com/PreventRansomware/docs/Initial Compromise/Explotation Of Networking Appliances.md",
+  "editUrl": "https://github.com/PreventRansomware/PreventRansomware/docs/Initial Compromise/Explotation Of Networking Appliances.md",
   "version": "current",
-  "sidebarPosition": 2,
   "frontMatter": {
-    "sidebar_position": 2
+    "sidebar\\_position": 2
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Summary",
-    "permalink": "/docs/Initial Compromise/Summary"
+    "title": "Introduction",
+    "permalink": "/docs/intro"
   },
   "next": {
     "title": "Permissive Firewall Rules",

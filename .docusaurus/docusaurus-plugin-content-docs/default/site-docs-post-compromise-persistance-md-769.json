@@ -3,12 +3,12 @@
   "id": "Post Compromise/persistance",
   "isDocsHomePage": false,
   "title": "Persistence",
-  "description": "The first point of entry for attackers is known as “the initial foothold” This term encompasses credentials or a computer system that hackers have managed to gain some form of control over. Once an attacker has this control they need to ensure they can keep hold of it and come back to it at a later time, this is known as persistence.",
+  "description": "The first point of entry for attackers is “the initial foothold” This term encompasses credentials or a computer system that hackers have managed to gain some form of control over. Once an attacker has this control, they need to ensure they can keep hold of it and come back to it later; this is known as persistence.",
   "source": "@site/docs/Post Compromise/persistance.md",
   "sourceDirName": "Post Compromise",
   "slug": "/Post Compromise/persistance",
   "permalink": "/docs/Post Compromise/persistance",
-  "editUrl": "https://github.com/PreventRansomware/docs/Post Compromise/persistance.md",
+  "editUrl": "https://github.com/PreventRansomware/PreventRansomware/docs/Post Compromise/persistance.md",
   "version": "current",
   "frontMatter": {
     "sidebar\\_position": 2
