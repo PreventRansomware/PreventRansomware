@@ -9,7 +9,7 @@ Persistence tactics in ransomware attacks are relatively consistent, well unders
 
 ### Scheduled tasks
 
-If a system is comprised remotely, an attacker has gained an “initial foothold”, which usually runs in memory; it can easily be shaken by restarting the OS. To ensure their payload can persist, attackers [abuse Windows Scheduled Tasks][1]. Scheduled tasks can execute scripts and commands via triggers such as system startup, user logon and particular times. Attackers can leverage this capability to schedule the execution of malicious commands so that every time a system starts, their payload does too.  [Ransomware gangs like Conti are known to use this persistence trick][2] to ensure they can come back to a victim network to continue their attacks.
+To evade detection by anti-virus, most modern remote access beacons exist primarily in RAM and avoid touching persistent storage. This means a simple reboot might be enough to shake successful remote code execution from opening a malicious document or link. To ensure their payload can persist, attackers [abuse Windows Scheduled Tasks][1]. Scheduled tasks can execute scripts and commands via triggers such as system startup, user logon and a timed schedule. Attackers can leverage this capability to schedule the execution of malicious commands so that every time a system starts, their payload does too.  [Ransomware gangs like Conti are known to use this persistence trick][2] to ensure they can maintain access to their victim’s networks.
 Attackers run variations of the below command to set up their malicious scheduled tasks:
 ![][image-1]
 
