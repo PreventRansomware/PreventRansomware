@@ -12,6 +12,6 @@ This means most ransomware gangs aren't using sophisticated attack methods at al
 
 If you follow this documentation step by step to the end, your network **will be able to fend off the majority of today's ransomware attacks**, and you most likely won't have to spend any money.
 
-For those who are not big on reading long-form documentation or don’t have the time, we have condensed our information down into a top-five controls list and a helpful checklist PDF. If you already have a competent sysadmin or security team, you might be able to implement the proper controls quickly. 
+For those who are not big on reading long-form documentation or don’t have the time, we have condensed our information down into a top-five controls list and a helpful checklist PDF. If you already have a competent sysadmin or security team, you might be able to implement the proper controls quickly without trawling the entire set of documentation.
 
 
