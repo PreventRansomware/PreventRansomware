@@ -15,8 +15,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Introduction",
-    "permalink": "/docs/intro"
+    "title": "Summary",
+    "permalink": "/docs/Initial Compromise/Summary"
   },
   "next": {
     "title": "Permissive Firewall Rules",

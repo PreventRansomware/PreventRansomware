@@ -17,5 +17,9 @@
   "previous": {
     "title": "Persistence",
     "permalink": "/docs/Post Compromise/persistance"
+  },
+  "next": {
+    "title": "Introduction",
+    "permalink": "/docs/intro"
   }
 }

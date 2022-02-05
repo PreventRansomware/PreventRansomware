@@ -15,8 +15,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Summary",
-    "permalink": "/docs/Initial Compromise/Summary"
+    "title": "Stolen Credentials",
+    "permalink": "/docs/Initial Compromise/Stolen Credentials"
   },
   "next": {
     "title": "Persistence",

@@ -13,17 +13,17 @@
           "sidebarFilePath": "/Users/charlie/git/PreventRansomware/sidebars.js",
           "contentPath": "/Users/charlie/git/PreventRansomware/docs",
           "contentPathLocalized": "/Users/charlie/git/PreventRansomware/i18n/en/docusaurus-plugin-content-docs/current",
-          "mainDocId": "intro",
+          "mainDocId": "Initial Compromise/Summary",
           "sidebars": {
             "tutorialSidebar": [
-              {
-                "type": "doc",
-                "id": "intro"
-              },
               {
                 "type": "category",
                 "label": "Inital Access",
                 "items": [
+                  {
+                    "type": "doc",
+                    "id": "Initial Compromise/Summary"
+                  },
                   {
                     "type": "doc",
                     "id": "Initial Compromise/Explotation Of Networking Appliances"
@@ -39,10 +39,6 @@
                   {
                     "type": "doc",
                     "id": "Initial Compromise/Stolen Credentials"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "Initial Compromise/Summary"
                   }
                 ],
                 "collapsed": true
@@ -72,6 +68,10 @@
                   }
                 ],
                 "collapsed": true
+              },
+              {
+                "type": "doc",
+                "id": "intro"
               }
             ]
           },
@@ -104,8 +104,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Introduction",
-                "permalink": "/docs/intro"
+                "title": "Summary",
+                "permalink": "/docs/Initial Compromise/Summary"
               },
               "next": {
                 "title": "Permissive Firewall Rules",
@@ -183,8 +183,8 @@
                 "permalink": "/docs/Initial Compromise/Phishing Attacks"
               },
               "next": {
-                "title": "Summary",
-                "permalink": "/docs/Initial Compromise/Summary"
+                "title": "Introduction",
+                "permalink": "/docs/Post Compromise/introduction"
               }
             },
             {
@@ -199,17 +199,14 @@
               "permalink": "/docs/Initial Compromise/Summary",
               "editUrl": "https://github.com/PreventRansomware/PreventRansomware/docs/Initial Compromise/Summary.md",
               "version": "current",
+              "sidebarPosition": 1,
               "frontMatter": {
-                "sidebar\\_position": 1
+                "sidebar_position": 1
               },
               "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Stolen Credentials",
-                "permalink": "/docs/Initial Compromise/Stolen Credentials"
-              },
               "next": {
-                "title": "Introduction",
-                "permalink": "/docs/Post Compromise/introduction"
+                "title": "Explotation Of Networking Appliances",
+                "permalink": "/docs/Initial Compromise/Explotation Of Networking Appliances"
               }
             },
             {
@@ -224,14 +221,13 @@
               "permalink": "/docs/intro",
               "editUrl": "https://github.com/PreventRansomware/PreventRansomware/docs/intro.md",
               "version": "current",
-              "sidebarPosition": 1,
               "frontMatter": {
-                "sidebar_position": 1
+                "sidebar\\_position": 1
               },
               "sidebar": "tutorialSidebar",
-              "next": {
-                "title": "Explotation Of Networking Appliances",
-                "permalink": "/docs/Initial Compromise/Explotation Of Networking Appliances"
+              "previous": {
+                "title": "Bad eMail File Extensions",
+                "permalink": "/docs/Lists/Bad eMail File Extensions"
               }
             },
             {
@@ -253,6 +249,10 @@
               "previous": {
                 "title": "Persistence",
                 "permalink": "/docs/Post Compromise/persistance"
+              },
+              "next": {
+                "title": "Introduction",
+                "permalink": "/docs/intro"
               }
             },
             {
@@ -272,8 +272,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Summary",
-                "permalink": "/docs/Initial Compromise/Summary"
+                "title": "Stolen Credentials",
+                "permalink": "/docs/Initial Compromise/Stolen Credentials"
               },
               "next": {
                 "title": "Persistence",

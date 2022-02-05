@@ -6,14 +6,14 @@
   "docsSidebars": {
     "tutorialSidebar": [
       {
-        "type": "link",
-        "label": "Introduction",
-        "href": "/docs/intro"
-      },
-      {
         "type": "category",
         "label": "Inital Access",
         "items": [
+          {
+            "type": "link",
+            "label": "Summary",
+            "href": "/docs/Initial Compromise/Summary"
+          },
           {
             "type": "link",
             "label": "Explotation Of Networking Appliances",
@@ -33,11 +33,6 @@
             "type": "link",
             "label": "Stolen Credentials",
             "href": "/docs/Initial Compromise/Stolen Credentials"
-          },
-          {
-            "type": "link",
-            "label": "Summary",
-            "href": "/docs/Initial Compromise/Summary"
           }
         ],
         "collapsed": true
@@ -70,6 +65,11 @@
           }
         ],
         "collapsed": true
+      },
+      {
+        "type": "link",
+        "label": "Introduction",
+        "href": "/docs/intro"
       }
     ]
   },

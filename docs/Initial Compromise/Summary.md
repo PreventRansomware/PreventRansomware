@@ -1,5 +1,5 @@
 ---
-sidebar\_position: 1
+sidebar_position: 1
 ---
 As established in the introduction, attackers want to use the path of least resistance to compromise your network. This usually means exploiting the same handful of tried and true tactics which rely on common misconfigurations and bad security practices.
 Some of the most popular are:
