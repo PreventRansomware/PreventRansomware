@@ -10,10 +10,10 @@ export default {
   "projectName": "PreventRansomware",
   "themeConfig": {
     "navbar": {
-      "title": "My Site",
+      "title": "PreventRansomware",
       "logo": {
         "alt": "My Site Logo",
-        "src": "img/logo.svg"
+        "src": "img/logo.png"
       },
       "items": [
         {
