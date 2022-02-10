@@ -37,8 +37,19 @@ In some cases, it's also possible to detect appliance attacks via their logs, al
 
 It is also essential to ensure that the administration console for these appliances is not directly exposed to the internet. In some cases, an exposed control panel on 443 with default credentials is as bad as a critical vulnerability. Attackers could log in with the credentials and attack the appliance directly by elevating privileges on the local OS. They could steal credentials or use the appliance as a stepping stone into your network. 
 
+If your team need some encouragement to install patches, here are some real-world examples of network edge appliances leading to breaches:    
+
+- [Citrix Application Gateway Remote Code Execution ][2]
+- [Pulse Secure VPN Appliance][3]
+- [ Unpatched exchanged leads to domain-wide ransomware][4]
+- [- Sonicwall Remote Code Execution ][5]
+
 
 
 [1]:	https://secalerts.co
+[2]:	https://www.zdnet.com/article/hackers-target-unpatched-citrix-servers-to-deploy-ransomware/
+[3]:	https://www.cisa.gov/uscert/ncas/current-activity/2021/07/21/malware-targeting-pulse-secure-devices
+[4]:	https://thedfirreport.com/2021/11/15/exchange-exploit-leads-to-domain-wide-ransomware/
+[5]:	https://threatpost.com/critical-sonicwall-vpn-bugs-appliance-takeover/176869/
 
 [image-1]:	/img/DocImages/VPNDiagram.png
