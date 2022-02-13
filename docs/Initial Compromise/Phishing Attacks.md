@@ -9,11 +9,15 @@ Ransomware operators directly or indirectly compromise networks with phishing by
 
 #### Credential phishing
 
-Credential phishing is probably the most popular type of phishing. It is the art of tricking users into [clicking a link][2] which eventually leads to a fake but convincing login page. The user wilfully hands over their username and password, which the attackers use to log in to the victim network. 
+Credential phishing is probably the most popular type of phishing. It is the art of tricking users into [clicking a link][2] which eventually leads to a fake but convincing login page where users wilfully hand over their username and password combination which attackers use to log in to a victim network or service. 
 
 The proper prevention (or at least speed bump) for this phishing format is, of course, enforcing 2FA on all user accounts without exception. 
 
-Enforcing 2FA makes it harder for a stolen password alone to allow accounts to be compromised because 2FA is made up of something you know and something you have. In most cases, the "something you know" is a password and "something you have" is a code generated on a smartphone app. This form of 2FA isn’t perfect because the codes can be intercepted by attackers and quickly redirected before it expires without the victim noticing. To combat this attack vector, most identity providers like AzureAD, Google Workspace and Okta eliminate the need for a rotating six-digit code by offering [push notifications][3] as the second factor to prove the “something you have” portion of the authentication challenge.  
+Enforcing 2FA makes it harder (but not impossible) for a stolen password alone to allow accounts to be compromised because 2FA is made up of something you know and something you have. In most cases, the "something you know" is a password and "something you have" is a code generated on a smartphone app. 
+
+As with all security controls, 2FA isn’t a silver bullet because 2FA prompts and codes can be intercepted by attackers and quickly used before expires without the victim noticing, known as the man in the middle phishing. To combat the man in the middle attack vector, most identity providers like AzureAD, Google Workspace and Okta eliminate the need for a rotating six-digit code by offering [push notifications][3] as the second factor to prove the “something you have” portion of the authentication challenge. There are also of course hardware tokens like the Yubikey but the cost of buying and replacing keys might not be viable for all businesses. 
+
+  
   
 All identity providers have policies to enforce 2FA for all user accounts; once you are done reading, visit the "Vendor Specific" section of our documentation to find guides on enabling these policies in your particular vendor’s settings. 
 If you don’t find the flavour you are looking for, please consider contributing! 
