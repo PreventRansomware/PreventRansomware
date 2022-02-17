@@ -13,11 +13,17 @@ Credential phishing is probably the most popular type of phishing. It is the art
 
 The proper prevention (or at least speed bump) for this phishing format is, of course, enforcing 2FA on all user accounts without exception. 
 
-Enforcing 2FA makes it harder (but not impossible) for a stolen password alone to allow accounts to be compromised because 2FA is made up of something you know and something you have. In most cases, the "something you know" is a password and "something you have" is a code generated on a smartphone app. 
-
-As with all security controls, 2FA isn’t a silver bullet because 2FA prompts and codes can be intercepted by attackers and quickly used before expires without the victim noticing, known as the man in the middle phishing. To combat the man in the middle attack vector, most identity providers like AzureAD, Google Workspace and Okta eliminate the need for a rotating six-digit code by offering [push notifications][3] as the second factor to prove the “something you have” portion of the authentication challenge. There are also of course hardware tokens like the Yubikey but the cost of buying and replacing keys might not be viable for all businesses. 
-
+Enforcing 2FA makes it hard (but not impossible) for a stolen password alone to allow accounts to be compromised because 2FA is made up of something you know and something you have. The "something you know" is a password and "something you have" is often a code generated on a smartphone app. The “something you have” part of 2FA allows us to confirm with high confidence that the person authenticating is in fact who they say they are.   
   
+As with all security solutions, 2FA isn’t a silver bullet that stops account takeovers completely. Modern phishing campaigns are able to intercept 2FA authentication traffic in transit via a tactic named Man In The Middle Phishing which works by putting a transparent proxy between the victim and the service or system the user is trying to authenticate to. 
+
+![Credit: https://catching-transparent-phish.github.io][image-1]
+> Image credit: [https://catching-transparent-phish.github.io][3]
+
+Attackers can 
+
+
+Although enforcing 2FA **is a gigantic step in the right direction** as it vastly improves account security but as with all security controls, 
   
 All identity providers have policies to enforce 2FA for all user accounts; once you are done reading, visit the "Vendor Specific" section of our documentation to find guides on enabling these policies in your particular vendor’s settings. 
 If you don’t find the flavour you are looking for, please consider contributing! 
@@ -45,7 +51,7 @@ Don’t worry about remembering all of this right now; it’s on our checklist a
 
 [1]:	https://www.techrepublic.com/article/for-sale-access-to-your-company-network-price-less-than-youd-think/
 [2]:	https://i.ytimg.com/vi/vheFIrl1LAs/maxresdefault.jpg
-[3]:	https://doubleoctopus.com/security-wiki/authentication/push-notification-authentication/
+[3]:	https://catching-transparent-phish.github.io
 [4]:	https://www.malwarebytes.com/browserguard
 [5]:	https://pi-hole.net
 [6]:	https://www.opendns.com
@@ -53,3 +59,5 @@ Don’t worry about remembering all of this right now; it’s on our checklist a
 [8]:	https://www.cisecurity.org/white-papers/intel-insight-how-to-disable-macros/
 [9]:	https://twitter.com/Hexacorn/status/1418634009060458500?s=20
 [10]:	https://twitter.com/GovCERT_CH/status/1464148274823282697?s=20
+
+[image-1]:	https://catching-transparent-phish.github.io/img/mitmToolkitOverview.png
