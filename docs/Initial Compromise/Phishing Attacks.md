@@ -42,9 +42,11 @@ DNS filtering is favoured amongst the security community because it can be done 
 #### Malicious Attachments
 Modern attackers are still successfully breaching targets by sending malicious attachments directly to their victims. In most cases, the payload is hidden inside a Microsoft Office document which is disguised as legitimate business mail when opened; a malicious attachment will sometimes need further user interaction before being able to execute code, but in some rare cases where a zero-day or unpatched vulnerability is involved no user interaction is required. 
 
-Attachment protection seems rather daunting, but there are plenty of tools at the defender’s disposal in reality. Firstly defenders should consider outright blocking a list of known bad and unwanted file extensions because some files have no business coming through your eMail gateway. PreventRansomware has compiled a list on GitHub here. Some examples:PS1, .BAT, .LNK, .HTA, .RFT, XLSM  
+Attachment protection seems rather daunting, but there are plenty of tools at the defender’s disposal in reality. Firstly you should consider outright blocking a list of known bad and unwanted file extensions because some files have no business coming through the eMail gateway. PreventRansomware has compiled a list on GitHub here. Some examples:PS1, .BAT, .LNK, .HTA, .RFT, XLSM  
   
-Attackers love Office documents because they can contain Macro code that can make calls and execute code of all different kinds. Macros are a dangerous weapon and should be controlled at the eMail gateway and user endpoint. If your business isn’t using macros or never receives them via email, it’s a great idea to [disable them altogether.][6] Block the file type.XLSM from being delivered at all and disable macros via group policy. If users use macros legitimately, defenders can control which macros can be enabled via Microsoft group policy. The [Disable Internet Macros][7] group policy prevents users from allowing a macro that was delivered to them over the internet or email. If you do anything from this entire body of information, do this. Disable Macros. [Cyber security professionals want you to.][8] No, really, [we do][9].
+Attackers love Office documents because they can contain Macro code that can make calls and execute commands of all different kinds. Macros are a dangerous weapon and should be controlled at the eMail gateway and user endpoint. If your business isn’t using macros or never receives them via email, it’s a great idea to [disable them altogether.][6] Block the file type.XLSM from being delivered at all and disable macros via group policy. If users use macros legitimately, you can control which macros can be used via Microsoft group policy. The [Disable Internet Macros][7] group policy prevents users from allowing a macro that was delivered to them over the internet or via email from executing. If you do anything from this entire body of information, do this. Disable Macros. [Cyber security professionals want you to.][8] No, really, [we do][9].
+
+In fact macro-based infections have become such a problem that [Microsoft is disabling external macros by default][10] but users are still able to bypass this warning, although they must go out of their way to do so. If your business really doesn’t need macros then just block them from executing entirely. 
 
 Don’t worry about remembering all of this right now; it’s on our checklist at the end of this documentation.
 
@@ -60,6 +62,7 @@ Don’t worry about remembering all of this right now; it’s on our checklist a
 [7]:	https://www.cisecurity.org/white-papers/intel-insight-how-to-disable-macros/
 [8]:	https://twitter.com/Hexacorn/status/1418634009060458500?s=20
 [9]:	https://twitter.com/GovCERT_CH/status/1464148274823282697?s=20
+[10]:	https://docs.microsoft.com/en-us/deployoffice/security/internet-macros-blocked
 
 [image-1]:	https://catching-transparent-phish.github.io/img/mitmToolkitOverview.png
 [image-2]:	/img/DocImages/2fakey.png
