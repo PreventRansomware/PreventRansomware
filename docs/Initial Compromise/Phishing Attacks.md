@@ -49,7 +49,7 @@ Attackers love Office documents because they can contain Macro code that can mak
 Macro-based infections have become such a problem that [Microsoft is disabling external macros by default][10] , but users are still able tocan still bypass this warning, although they must go out of their way to do so. If your business doesn’t need macros, block them from executing entirely. 
 
 Regardless of being able to turn macro protection on, all defenders should consider having some form of modern EDR software installed on their endpoints. Despite their marketing material, no tool will ever give you 100% protection, but EDR will provide you with dramatically better protection than standard antivirus.   
-Oldschool anti-virus looks for file hashes that act similarly to a policeman looking for fingerprints; if the anti-virus doesn’t recognise the fingerprints of a piece of malware, it can’t detect it. EDR, on the other hand, looks for suspicious _behaviour_ which means it can detect malware regardless of how it looks and feels. For example, if a brand new piece of malware makes it into your network from a malicious document, your EDR tool should be able to detect the attack by the process parent-child relationship.:
+Oldschool anti-virus looks for file hashes that act similarly to a policeman looking for fingerprints; if the anti-virus doesn’t recognise the fingerprints of a piece of malware, it can’t detect it. EDR, on the other hand, looks for suspicious _behaviour_ which means it can detect malware regardless of how it looks and feels. For example, if a brand new piece of malware makes it into your network from a malicious document, your EDR tool should be able to detect the attack by the process parent-child relationship:
 
 ![][image-3]
 
