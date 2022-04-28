@@ -44,6 +44,6 @@ You should monitor these logs for the creation of any unexpected or suspicious s
 [4]:	https://attack.mitre.org/techniques/T1053/
 [5]:	https://www.stigviewer.com/stig/windows_10/2017-12-01/finding/V-74409
 
-[image-1]:	img/DocImages/cobaltpersist.png
+[image-1]:	/img/DocImages/cobaltpersist.png
 [image-2]:	/img/DocImages/auditgpo.png
-[image-3]:	img/DocImages/task.png
+[image-3]:	/img/DocImages/task.png
