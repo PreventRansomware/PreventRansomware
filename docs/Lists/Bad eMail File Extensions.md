@@ -11,3 +11,4 @@ PreventRansomware suggests the following files should never be allowed through a
 .EXE
 .BAT
 .SH
+.ISO
