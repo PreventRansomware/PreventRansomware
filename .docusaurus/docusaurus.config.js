@@ -3,17 +3,17 @@ export default {
   "tagline": "Practical protection against ransomware.",
   "url": "https://preventransomware.io",
   "baseUrl": "/",
-  "onBrokenLinks": "throw",
+  "onBrokenLinks": "warn",
   "onBrokenMarkdownLinks": "warn",
   "favicon": "img/favicon.ico",
   "organizationName": "PreventRansomware",
-  "projectName": "Prevent Ransomware",
+  "projectName": "PreventRansomware",
   "themeConfig": {
     "navbar": {
-      "title": "My Site",
+      "title": "PreventRansomware",
       "logo": {
         "alt": "My Site Logo",
-        "src": "img/logo.svg"
+        "src": "img/logo.png"
       },
       "items": [
         {
@@ -52,12 +52,8 @@ export default {
           "title": "Community",
           "items": [
             {
-              "label": "Slack",
-              "href": "https://preventransomware.slack.com"
-            },
-            {
               "label": "Twitter",
-              "href": "https://twitter.com/docusaurus"
+              "href": "https://twitter.com/preventransom"
             }
           ]
         },
@@ -293,12 +289,17 @@ export default {
       "@docusaurus/preset-classic",
       {
         "docs": {
+<<<<<<< HEAD
           "sidebarPath": "C:\\Users\\Charlie\\Documents\\GitHub\\PreventRansomware\\sidebars.js",
           "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/"
+=======
+          "sidebarPath": "/Users/charlie/git/PreventRansomware/sidebars.js",
+          "editUrl": "https://github.com/PreventRansomware/PreventRansomware"
+>>>>>>> 70c07af7f8a97d856d24f299fbef647bf5b887fd
         },
         "blog": {
           "showReadingTime": true,
-          "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/blog/"
+          "editUrl": "https://github.com/PreventRansomware/PreventRansomware"
         },
         "theme": {
           "customCss": "C:\\Users\\Charlie\\Documents\\GitHub\\PreventRansomware\\src\\css\\custom.css"

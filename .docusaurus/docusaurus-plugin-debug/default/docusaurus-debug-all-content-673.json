@@ -6,8 +6,8 @@
           "versionName": "current",
           "versionLabel": "Next",
           "versionPath": "/docs",
-          "versionEditUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs",
-          "versionEditUrlLocalized": "https://github.com/facebook/docusaurus/edit/master/website/i18n/en/docusaurus-plugin-content-docs/current",
+          "versionEditUrl": "https://github.com/PreventRansomware/PreventRansomware/docs",
+          "versionEditUrlLocalized": "https://github.com/PreventRansomware/PreventRansomware/i18n/en/docusaurus-plugin-content-docs/current",
           "isLast": true,
           "routePriority": -1,
           "sidebarFilePath": "C:\\Users\\Charlie\\Documents\\GitHub\\PreventRansomware\\sidebars.js",
@@ -34,7 +34,7 @@
                   },
                   {
                     "type": "doc",
-                    "id": "Initial Compromise/Stolen Credentials"
+                    "id": "Initial Compromise/Permissive Firewall Rules"
                   },
                   {
                     "type": "doc",
@@ -42,7 +42,33 @@
                   },
                   {
                     "type": "doc",
-                    "id": "Initial Compromise/Permissive Firewall Rules"
+                    "id": "Initial Compromise/Stolen Credentials"
+                  }
+                ],
+                "collapsed": true
+              },
+              {
+                "type": "category",
+                "label": "Post Compromise",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "Post Compromise/introduction"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Post Compromise/persistance"
+                  }
+                ],
+                "collapsed": true
+              },
+              {
+                "type": "category",
+                "label": "Lists",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "Lists/Bad eMail File Extensions"
                   }
                 ],
                 "collapsed": true
@@ -55,7 +81,10 @@
             "/docs/Initial Compromise/Phishing Attacks": "tutorialSidebar",
             "/docs/Initial Compromise/Stolen Credentials": "tutorialSidebar",
             "/docs/Initial Compromise/Summary": "tutorialSidebar",
-            "/docs/intro": "tutorialSidebar"
+            "/docs/intro": "tutorialSidebar",
+            "/docs/Lists/Bad eMail File Extensions": "tutorialSidebar",
+            "/docs/Post Compromise/introduction": "tutorialSidebar",
+            "/docs/Post Compromise/persistance": "tutorialSidebar"
           },
           "docs": [
             {
@@ -63,16 +92,15 @@
               "id": "Initial Compromise/Explotation Of Networking Appliances",
               "isDocsHomePage": false,
               "title": "Explotation Of Networking Appliances",
-              "description": "Networking appliances like VPNs and Citrix access gateways are often installed to grant roaming users access to internal resources like file shares and applications. These appliances straddle the gap between the internet and the internal network. This rather precarious location makes them an attractive target for attackers because successful compromise will most likely lead directly to the soft squishy center of a private network.",
+              "description": "Edge of network appliances like VPNs and Citrix access gateways are often installed to grant roaming users access to internal resources like files and applications or, in the case of Exchange servers, eMail. These appliances straddle the gap between the internet and the internal network, their somewhat precarious location (known as the DMZ or just edge) makes them an attractive target for attackers because successful compromise could create a pathway from the attacker’s computer directly into the victim’s internal network.",
               "source": "@site/docs/Initial Compromise/Explotation Of Networking Appliances.md",
               "sourceDirName": "Initial Compromise",
               "slug": "/Initial Compromise/Explotation Of Networking Appliances",
               "permalink": "/docs/Initial Compromise/Explotation Of Networking Appliances",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Initial Compromise/Explotation Of Networking Appliances.md",
+              "editUrl": "https://github.com/PreventRansomware/PreventRansomware/docs/Initial Compromise/Explotation Of Networking Appliances.md",
               "version": "current",
-              "sidebarPosition": 2,
               "frontMatter": {
-                "sidebar_position": 2
+                "sidebar\\_position": 2
               },
               "sidebar": "tutorialSidebar",
               "previous": {
@@ -80,8 +108,8 @@
                 "permalink": "/docs/Initial Compromise/Summary"
               },
               "next": {
-                "title": "Stolen Credentials",
-                "permalink": "/docs/Initial Compromise/Stolen Credentials"
+                "title": "Permissive Firewall Rules",
+                "permalink": "/docs/Initial Compromise/Permissive Firewall Rules"
               }
             },
             {
@@ -89,64 +117,15 @@
               "id": "Initial Compromise/Permissive Firewall Rules",
               "isDocsHomePage": false,
               "title": "Permissive Firewall Rules",
-              "description": "Firewalls sit at the edge of a network to protect its internal network from the cold, harsh wild-lands of the internet. Unfortunately having pesky firewalls on the perimeter means key ports are often blocked, key ports like RDP. (TCP 3389) RDP is used for remote system administration and user access which has increased during the COVID-19 outbreak. Thanks to this increase and plain bad system administration, many networks have exposed RDP directly to the open internet. At the time of writing there are over three million RDP ports open as per Shodan.",
+              "description": "Firewalls filter traffic that travels in and out of a network. In an ideal world your firewall should allow nothing in and only the bare minimum out. Unfortunately, this isn’t how the real world works. System administrators need to open ports for various business reasons; attackers know this and scour the internet for open ports with which they can breach a network.",
               "source": "@site/docs/Initial Compromise/Permissive Firewall Rules.md",
               "sourceDirName": "Initial Compromise",
               "slug": "/Initial Compromise/Permissive Firewall Rules",
               "permalink": "/docs/Initial Compromise/Permissive Firewall Rules",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Initial Compromise/Permissive Firewall Rules.md",
+              "editUrl": "https://github.com/PreventRansomware/PreventRansomware/docs/Initial Compromise/Permissive Firewall Rules.md",
               "version": "current",
-              "sidebarPosition": 6,
               "frontMatter": {
-                "sidebar_position": 6
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Phishing Attacks",
-                "permalink": "/docs/Initial Compromise/Phishing Attacks"
-              }
-            },
-            {
-              "unversionedId": "Initial Compromise/Phishing Attacks",
-              "id": "Initial Compromise/Phishing Attacks",
-              "isDocsHomePage": false,
-              "title": "Phishing Attacks",
-              "description": "Phishing attacks come in many flavours, almost all of them are enjoyed by ransomware operators and in fact phishing is one of the most common ways for ransomware to seep into a network either directly or indirectly. As an attack technique its popularity is probably fuelled by its success which relies on arguably the weakest link in cyber defences, people.",
-              "source": "@site/docs/Initial Compromise/Phishing Attacks.md",
-              "sourceDirName": "Initial Compromise",
-              "slug": "/Initial Compromise/Phishing Attacks",
-              "permalink": "/docs/Initial Compromise/Phishing Attacks",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Initial Compromise/Phishing Attacks.md",
-              "version": "current",
-              "sidebarPosition": 5,
-              "frontMatter": {
-                "sidebar_position": 5
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Stolen Credentials",
-                "permalink": "/docs/Initial Compromise/Stolen Credentials"
-              },
-              "next": {
-                "title": "Permissive Firewall Rules",
-                "permalink": "/docs/Initial Compromise/Permissive Firewall Rules"
-              }
-            },
-            {
-              "unversionedId": "Initial Compromise/Stolen Credentials",
-              "id": "Initial Compromise/Stolen Credentials",
-              "isDocsHomePage": false,
-              "title": "Stolen Credentials",
-              "description": "It's common for ransomware gangs to break into organisations simply by logging into a network with stolen, guessed or purchased credentials. Yes, that's right, hackers are just literally just logging in to your network to deploy ransomware.",
-              "source": "@site/docs/Initial Compromise/Stolen Credentials.md",
-              "sourceDirName": "Initial Compromise",
-              "slug": "/Initial Compromise/Stolen Credentials",
-              "permalink": "/docs/Initial Compromise/Stolen Credentials",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Initial Compromise/Stolen Credentials.md",
-              "version": "current",
-              "sidebarPosition": 4,
-              "frontMatter": {
-                "sidebar_position": 4
+                "sidebar\\_position": 6
               },
               "sidebar": "tutorialSidebar",
               "previous": {
@@ -159,6 +138,56 @@
               }
             },
             {
+              "unversionedId": "Initial Compromise/Phishing Attacks",
+              "id": "Initial Compromise/Phishing Attacks",
+              "isDocsHomePage": false,
+              "title": "Phishing Attacks",
+              "description": "Phishing attacks come in many flavours. Almost all of them are enjoyed by ransomware operators. Phishing is one of the most common ways for ransomware to seep into a network directly or indirectly. As an attack technique, its popularity is probably fuelled by its success which relies on the weakest link in cyber defences, people.",
+              "source": "@site/docs/Initial Compromise/Phishing Attacks.md",
+              "sourceDirName": "Initial Compromise",
+              "slug": "/Initial Compromise/Phishing Attacks",
+              "permalink": "/docs/Initial Compromise/Phishing Attacks",
+              "editUrl": "https://github.com/PreventRansomware/PreventRansomware/docs/Initial Compromise/Phishing Attacks.md",
+              "version": "current",
+              "frontMatter": {
+                "sidebar\\_position": 5
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Permissive Firewall Rules",
+                "permalink": "/docs/Initial Compromise/Permissive Firewall Rules"
+              },
+              "next": {
+                "title": "Stolen Credentials",
+                "permalink": "/docs/Initial Compromise/Stolen Credentials"
+              }
+            },
+            {
+              "unversionedId": "Initial Compromise/Stolen Credentials",
+              "id": "Initial Compromise/Stolen Credentials",
+              "isDocsHomePage": false,
+              "title": "Stolen Credentials",
+              "description": "It's common for ransomware gangs to break into organisations simply by logging into a network with stolen, guessed or purchased credentials. Yes, that's right, hackers are just logging in to your network to deploy ransomware.",
+              "source": "@site/docs/Initial Compromise/Stolen Credentials.md",
+              "sourceDirName": "Initial Compromise",
+              "slug": "/Initial Compromise/Stolen Credentials",
+              "permalink": "/docs/Initial Compromise/Stolen Credentials",
+              "editUrl": "https://github.com/PreventRansomware/PreventRansomware/docs/Initial Compromise/Stolen Credentials.md",
+              "version": "current",
+              "frontMatter": {
+                "sidebar\\_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Phishing Attacks",
+                "permalink": "/docs/Initial Compromise/Phishing Attacks"
+              },
+              "next": {
+                "title": "Introduction",
+                "permalink": "/docs/Post Compromise/introduction"
+              }
+            },
+            {
               "unversionedId": "Initial Compromise/Summary",
               "id": "Initial Compromise/Summary",
               "isDocsHomePage": false,
@@ -168,7 +197,7 @@
               "sourceDirName": "Initial Compromise",
               "slug": "/Initial Compromise/Summary",
               "permalink": "/docs/Initial Compromise/Summary",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Initial Compromise/Summary.md",
+              "editUrl": "https://github.com/PreventRansomware/PreventRansomware/docs/Initial Compromise/Summary.md",
               "version": "current",
               "sidebarPosition": 1,
               "frontMatter": {
@@ -189,12 +218,12 @@
               "id": "intro",
               "isDocsHomePage": false,
               "title": "Introduction",
-              "description": "Ransomware is chalked up to be a complex threat to modern enterprises. So-called sophisticated attackers infiltrate and cripple networks indiscriminately. These attacks are often followed by blog posts from big brand security vendors who explain why this particular ransomware event was more sinister and advanced than the last.",
+              "description": "Ransomware is chalked up to be a complex threat to modern enterprises. Attackers infiltrate and cripple networks indiscriminately. These attacks are often followed by blog posts from prominent security vendors explaining why this ransomware event was more sinister and advanced than the last.",
               "source": "@site/docs/intro.md",
               "sourceDirName": ".",
               "slug": "/intro",
               "permalink": "/docs/intro",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/intro.md",
+              "editUrl": "https://github.com/PreventRansomware/PreventRansomware/docs/intro.md",
               "version": "current",
               "sidebarPosition": 1,
               "frontMatter": {
@@ -204,6 +233,77 @@
               "next": {
                 "title": "Summary",
                 "permalink": "/docs/Initial Compromise/Summary"
+              }
+            },
+            {
+              "unversionedId": "Lists/Bad eMail File Extensions",
+              "id": "Lists/Bad eMail File Extensions",
+              "isDocsHomePage": false,
+              "title": "Bad eMail File Extensions",
+              "description": "In an ideal world the following file extensions should not be allowed through your eMail gateway. This list isn’t universal and may not be suitable for every organisation but instead should work as a guideline. You may find your business actually needs a particular file extension for their business, thats fine.",
+              "source": "@site/docs/Lists/Bad eMail File Extensions.md",
+              "sourceDirName": "Lists",
+              "slug": "/Lists/Bad eMail File Extensions",
+              "permalink": "/docs/Lists/Bad eMail File Extensions",
+              "editUrl": "https://github.com/PreventRansomware/PreventRansomware/docs/Lists/Bad eMail File Extensions.md",
+              "version": "current",
+              "frontMatter": {
+                "sidebar\\_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Persistence",
+                "permalink": "/docs/Post Compromise/persistance"
+              }
+            },
+            {
+              "unversionedId": "Post Compromise/introduction",
+              "id": "Post Compromise/introduction",
+              "isDocsHomePage": false,
+              "title": "Introduction",
+              "description": "Once a ransomware operator has gotten onto your network, they want to achieve predictable objectives. In most cases, the attacker will:",
+              "source": "@site/docs/Post Compromise/introduction.md",
+              "sourceDirName": "Post Compromise",
+              "slug": "/Post Compromise/introduction",
+              "permalink": "/docs/Post Compromise/introduction",
+              "editUrl": "https://github.com/PreventRansomware/PreventRansomware/docs/Post Compromise/introduction.md",
+              "version": "current",
+              "frontMatter": {
+                "sidebar\\_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Stolen Credentials",
+                "permalink": "/docs/Initial Compromise/Stolen Credentials"
+              },
+              "next": {
+                "title": "Persistence",
+                "permalink": "/docs/Post Compromise/persistance"
+              }
+            },
+            {
+              "unversionedId": "Post Compromise/persistance",
+              "id": "Post Compromise/persistance",
+              "isDocsHomePage": false,
+              "title": "Persistence",
+              "description": "The first point of entry for attackers is “the initial foothold” This term encompasses credentials or a computer system that hackers have managed to gain some form of control over. Once an attacker has this control, they need to ensure they can keep hold of it and come back to it later; this is known as persistence.",
+              "source": "@site/docs/Post Compromise/persistance.md",
+              "sourceDirName": "Post Compromise",
+              "slug": "/Post Compromise/persistance",
+              "permalink": "/docs/Post Compromise/persistance",
+              "editUrl": "https://github.com/PreventRansomware/PreventRansomware/docs/Post Compromise/persistance.md",
+              "version": "current",
+              "frontMatter": {
+                "sidebar\\_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Introduction",
+                "permalink": "/docs/Post Compromise/introduction"
+              },
+              "next": {
+                "title": "Bad eMail File Extensions",
+                "permalink": "/docs/Lists/Bad eMail File Extensions"
               }
             }
           ]
