@@ -10,9 +10,9 @@
           "versionEditUrlLocalized": "https://github.com/facebook/docusaurus/edit/master/website/i18n/en/docusaurus-plugin-content-docs/current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/Users/charlie/git/PreventRansomware/sidebars.js",
-          "contentPath": "/Users/charlie/git/PreventRansomware/docs",
-          "contentPathLocalized": "/Users/charlie/git/PreventRansomware/i18n/en/docusaurus-plugin-content-docs/current",
+          "sidebarFilePath": "C:\\Users\\Charlie\\Documents\\GitHub\\PreventRansomware\\sidebars.js",
+          "contentPath": "C:\\Users\\Charlie\\Documents\\GitHub\\PreventRansomware\\docs",
+          "contentPathLocalized": "C:\\Users\\Charlie\\Documents\\GitHub\\PreventRansomware\\i18n\\en\\docusaurus-plugin-content-docs\\current",
           "mainDocId": "intro",
           "sidebars": {
             "tutorialSidebar": [

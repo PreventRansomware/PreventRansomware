@@ -293,7 +293,7 @@ export default {
       "@docusaurus/preset-classic",
       {
         "docs": {
-          "sidebarPath": "/Users/charlie/git/PreventRansomware/sidebars.js",
+          "sidebarPath": "C:\\Users\\Charlie\\Documents\\GitHub\\PreventRansomware\\sidebars.js",
           "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/"
         },
         "blog": {
@@ -301,7 +301,7 @@ export default {
           "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/blog/"
         },
         "theme": {
-          "customCss": "/Users/charlie/git/PreventRansomware/src/css/custom.css"
+          "customCss": "C:\\Users\\Charlie\\Documents\\GitHub\\PreventRansomware\\src\\css\\custom.css"
         }
       }
     ]
