@@ -1,0 +1,21 @@
+{
+  "unversionedId": "Lists/Bad eMail File Extensions",
+  "id": "Lists/Bad eMail File Extensions",
+  "isDocsHomePage": false,
+  "title": "Bad eMail File Extensions",
+  "description": "In an ideal world the following file extensions should not be allowed through your eMail gateway. This list isn’t universal and may not be suitable for every organisation but instead should work as a guideline. You may find your business actually needs a particular file extension for their business, thats fine.",
+  "source": "@site/docs/Lists/Bad eMail File Extensions.md",
+  "sourceDirName": "Lists",
+  "slug": "/Lists/Bad eMail File Extensions",
+  "permalink": "/docs/Lists/Bad eMail File Extensions",
+  "editUrl": "https://github.com/PreventRansomware/PreventRansomware/docs/Lists/Bad eMail File Extensions.md",
+  "version": "current",
+  "frontMatter": {
+    "sidebar\\_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Persistence",
+    "permalink": "/docs/Post Compromise/persistance"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "unversionedId": "Post Compromise/Summary",
+  "id": "Post Compromise/Summary",
+  "isDocsHomePage": false,
+  "title": "Persistence",
+  "description": "",
+  "source": "@site/docs/Post Compromise/Summary.md",
+  "sourceDirName": "Post Compromise",
+  "slug": "/Post Compromise/Summary",
+  "permalink": "/docs/Post Compromise/Summary",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Post Compromise/Summary.md",
+  "version": "current",
+  "frontMatter": {
+    "sidebar\\_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Stolen Credentials",
+    "permalink": "/docs/Initial Compromise/Stolen Credentials"
+  },
+  "next": {
+    "title": "Introduction",
+    "permalink": "/docs/Post Compromise/introduction"
+  }
+}

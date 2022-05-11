@@ -3,19 +3,22 @@
   "id": "Initial Compromise/Permissive Firewall Rules",
   "isDocsHomePage": false,
   "title": "Permissive Firewall Rules",
-  "description": "Firewalls sit at the edge of a network to protect its internal network from the cold, harsh wild-lands of the internet. Unfortunately having pesky firewalls on the perimeter means key ports are often blocked, key ports like RDP. (TCP 3389) RDP is used for remote system administration and user access which has increased during the COVID-19 outbreak. Thanks to this increase and plain bad system administration, many networks have exposed RDP directly to the open internet. At the time of writing there are over three million RDP ports open as per Shodan.",
+  "description": "Firewalls filter traffic that travels in and out of a network. In an ideal world your firewall should allow nothing in and only the bare minimum out. Unfortunately, this isn’t how the real world works. System administrators need to open ports for various business reasons; attackers know this and scour the internet for open ports with which they can breach a network.",
   "source": "@site/docs/Initial Compromise/Permissive Firewall Rules.md",
   "sourceDirName": "Initial Compromise",
   "slug": "/Initial Compromise/Permissive Firewall Rules",
   "permalink": "/docs/Initial Compromise/Permissive Firewall Rules",
-  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Initial Compromise/Permissive Firewall Rules.md",
+  "editUrl": "https://github.com/PreventRansomware/PreventRansomware/docs/Initial Compromise/Permissive Firewall Rules.md",
   "version": "current",
-  "sidebarPosition": 6,
   "frontMatter": {
-    "sidebar_position": 6
+    "sidebar\\_position": 6
   },
   "sidebar": "tutorialSidebar",
   "previous": {
+    "title": "Explotation Of Networking Appliances",
+    "permalink": "/docs/Initial Compromise/Explotation Of Networking Appliances"
+  },
+  "next": {
     "title": "Phishing Attacks",
     "permalink": "/docs/Initial Compromise/Phishing Attacks"
   }

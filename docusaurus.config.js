@@ -7,17 +7,17 @@ module.exports = {
   tagline: 'Practical protection against ransomware.',
   url: 'https://preventransomware.io',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'PreventRansomware', // Usually your GitHub org/user name.
-  projectName: 'Prevent Ransomware', // Usually your repo name.
+  projectName: 'PreventRansomware', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'PreventRansomware',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        src: 'img/logo.png',
       },
       items: [
         {
@@ -50,12 +50,8 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Slack',
-              href: 'https://preventransomware.slack.com',
-            },
-            {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://twitter.com/preventransom',
             },
           ],
         },
@@ -88,13 +84,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/PreventRansomware/PreventRansomware',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://github.com/PreventRansomware/PreventRansomware',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

@@ -26,8 +26,8 @@
           },
           {
             "type": "link",
-            "label": "Stolen Credentials",
-            "href": "/docs/Initial Compromise/Stolen Credentials"
+            "label": "Permissive Firewall Rules",
+            "href": "/docs/Initial Compromise/Permissive Firewall Rules"
           },
           {
             "type": "link",
@@ -36,8 +36,37 @@
           },
           {
             "type": "link",
-            "label": "Permissive Firewall Rules",
-            "href": "/docs/Initial Compromise/Permissive Firewall Rules"
+            "label": "Stolen Credentials",
+            "href": "/docs/Initial Compromise/Stolen Credentials"
+          }
+        ],
+        "collapsed": true
+      },
+      {
+        "type": "category",
+        "label": "Post Compromise",
+        "items": [
+          {
+            "type": "link",
+            "label": "Introduction",
+            "href": "/docs/Post Compromise/introduction"
+          },
+          {
+            "type": "link",
+            "label": "Persistence",
+            "href": "/docs/Post Compromise/persistance"
+          }
+        ],
+        "collapsed": true
+      },
+      {
+        "type": "category",
+        "label": "Lists",
+        "items": [
+          {
+            "type": "link",
+            "label": "Bad eMail File Extensions",
+            "href": "/docs/Lists/Bad eMail File Extensions"
           }
         ],
         "collapsed": true
@@ -50,6 +79,9 @@
     "/docs/Initial Compromise/Phishing Attacks": "tutorialSidebar",
     "/docs/Initial Compromise/Stolen Credentials": "tutorialSidebar",
     "/docs/Initial Compromise/Summary": "tutorialSidebar",
-    "/docs/intro": "tutorialSidebar"
+    "/docs/intro": "tutorialSidebar",
+    "/docs/Lists/Bad eMail File Extensions": "tutorialSidebar",
+    "/docs/Post Compromise/introduction": "tutorialSidebar",
+    "/docs/Post Compromise/persistance": "tutorialSidebar"
   }
 }
