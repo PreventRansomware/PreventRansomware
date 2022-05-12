@@ -16,4 +16,9 @@ Once a ransomware operator has gotten onto your network, they want to achieve pr
 -**Deployment **- Finally, attackers will deploy ransomware with creative techniques that ensure maximum damage and disruption.
 
 In this section, we will discuss these steps to understand them, which in turn should help us derive detection and prevention opportunities.  
+
+It is important to note that PreventRansomware does not expect, want or require you to become an expert in the following attack tactics. We instead wish to instil knowledge that you don't need to be a cyber security scientist. Merely knowing that these tactics exist and the basic mechanics of how they work should help you detect and defeat them.
+
+We have purposefully refrained from diving deep into each tactic because we know that ransomware attacks are prevented by getting the basic, foundational security controls right. 
+
   
