@@ -1,25 +1,26 @@
 {
   "unversionedId": "Post Compromise/persistance",
   "id": "Post Compromise/persistance",
-  "isDocsHomePage": false,
   "title": "Persistence",
-  "description": "The first point of entry for attackers is “the initial foothold” This term encompasses credentials or a computer system that hackers have managed to gain some form of control over. Once an attacker has this control, they need to ensure they can keep hold of it and come back to it later; this is known as persistence.",
+  "description": "Remote access tools like CobaltStrike Beacons avoid detection by living in RAM and never writing themselves into persistent storage; therefore, a system reboot might be enough to shake a successful beacon/implant. Attackers need their access to be persistent, so they can come back to the victim network and continue their operations day after day, or in some cases, for the few short hours it takes them to deploy ransomware.",
   "source": "@site/docs/Post Compromise/persistance.md",
   "sourceDirName": "Post Compromise",
   "slug": "/Post Compromise/persistance",
   "permalink": "/docs/Post Compromise/persistance",
+  "draft": false,
   "editUrl": "https://github.com/PreventRansomware/PreventRansomware/docs/Post Compromise/persistance.md",
+  "tags": [],
   "version": "current",
   "frontMatter": {
     "sidebar\\_position": 2
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Introduction",
-    "permalink": "/docs/Post Compromise/introduction"
+    "title": "Privilege Escalation and Credential Theft",
+    "permalink": "/docs/Post Compromise/Privilege Escalation"
   },
   "next": {
-    "title": "Bad eMail File Extensions",
-    "permalink": "/docs/Lists/Bad eMail File Extensions"
+    "title": "Which EDR?",
+    "permalink": "/docs/Vendor Specific/introduction"
   }
 }

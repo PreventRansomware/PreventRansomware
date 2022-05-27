@@ -1,25 +1,27 @@
 {
   "unversionedId": "Initial Compromise/Phishing Attacks",
   "id": "Initial Compromise/Phishing Attacks",
-  "isDocsHomePage": false,
   "title": "Phishing Attacks",
-  "description": "Phishing attacks come in many flavours. Almost all of them are enjoyed by ransomware operators. Phishing is one of the most common ways for ransomware to seep into a network directly or indirectly. As an attack technique, its popularity is probably fuelled by its success which relies on the weakest link in cyber defences, people.",
+  "description": "Phishing attacks come in many flavours. Almost all of them are enjoyed by ransomware operators. Phishing is one of the most common ways for ransomware to seep into a network directly or indirectly. As an attack technique, its popularity is probably fuelled by its success which relies on social engineering.",
   "source": "@site/docs/Initial Compromise/Phishing Attacks.md",
   "sourceDirName": "Initial Compromise",
   "slug": "/Initial Compromise/Phishing Attacks",
   "permalink": "/docs/Initial Compromise/Phishing Attacks",
+  "draft": false,
   "editUrl": "https://github.com/PreventRansomware/PreventRansomware/docs/Initial Compromise/Phishing Attacks.md",
+  "tags": [],
   "version": "current",
+  "sidebarPosition": 5,
   "frontMatter": {
-    "sidebar\\_position": 5
+    "sidebar_position": 5
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Permissive Firewall Rules",
-    "permalink": "/docs/Initial Compromise/Permissive Firewall Rules"
-  },
-  "next": {
     "title": "Stolen Credentials",
     "permalink": "/docs/Initial Compromise/Stolen Credentials"
+  },
+  "next": {
+    "title": "Permissive Firewall Rules",
+    "permalink": "/docs/Initial Compromise/Permissive Firewall Rules"
   }
 }

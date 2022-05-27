@@ -1,5 +1,5 @@
 ---
-sidebar\_position: 2
+sidebar_position: 2
 ---
 
 Edge of network appliances like VPNs and Citrix access gateways are often installed to grant roaming users access to internal resources like files and applications or, in the case of Exchange servers, eMail. These appliances straddle the gap between the internet and the internal network, their somewhat precarious location (known as the DMZ or just edge) makes them an attractive target for attackers because successful compromise could create a pathway from the attacker’s computer directly into the victim’s internal network. 

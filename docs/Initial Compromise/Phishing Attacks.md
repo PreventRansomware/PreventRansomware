@@ -1,5 +1,5 @@
 ---
-sidebar\_position: 5
+sidebar_position: 5
 ---
 
 Phishing attacks come in many flavours. Almost all of them are enjoyed by ransomware operators. Phishing is one of the most common ways for ransomware to seep into a network directly or indirectly. As an attack technique, its popularity is probably fuelled by its success which relies on social engineering.

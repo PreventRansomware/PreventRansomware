@@ -1,5 +1,5 @@
 ---
-sidebar\_position: 4
+sidebar_position: 4
 ---
 
 It's common for ransomware gangs to break into organisations simply by logging into a network with stolen, guessed or purchased credentials. Yes, that's right, **hackers are just logging in to your network to deploy ransomware.** 

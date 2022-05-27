@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Post Compromise/Privilege Escalation",
+  "id": "Post Compromise/Privilege Escalation",
+  "title": "Privilege Escalation and Credential Theft",
+  "description": "When an attacker first gains their initial foothold on a network, they will most likely find themselves executing code as a low privileged user, perhaps an account used for general office work that has been phished with a malicious Excel document disguised as a business invoice.",
+  "source": "@site/docs/Post Compromise/Privilege Escalation.md",
+  "sourceDirName": "Post Compromise",
+  "slug": "/Post Compromise/Privilege Escalation",
+  "permalink": "/docs/Post Compromise/Privilege Escalation",
+  "draft": false,
+  "editUrl": "https://github.com/PreventRansomware/PreventRansomware/docs/Post Compromise/Privilege Escalation.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "sidebar\\_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Foreword",
+    "permalink": "/docs/Post Compromise/Foreword"
+  },
+  "next": {
+    "title": "Persistence",
+    "permalink": "/docs/Post Compromise/persistance"
+  }
+}

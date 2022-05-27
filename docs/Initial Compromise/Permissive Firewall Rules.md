@@ -1,5 +1,5 @@
 ---
-sidebar\_position: 6
+sidebar_position: 6
 ---
 
 Firewalls filter traffic that travels in and out of a network. In an ideal world your firewall should allow nothing in and only the bare minimum out. Unfortunately, this isn’t how the real world works. System administrators need to open ports for various business reasons; attackers know this and scour the internet for open ports with which they can breach a network.

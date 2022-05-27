@@ -1,14 +1,15 @@
 {
   "unversionedId": "intro",
   "id": "intro",
-  "isDocsHomePage": false,
   "title": "Introduction",
-  "description": "Ransomware is chalked up to be a complex threat to modern enterprises. Attackers infiltrate and cripple networks indiscriminately. These attacks are often followed by blog posts from prominent security vendors explaining why this ransomware event was more sinister and advanced than the last.",
+  "description": "Ransomware is chalked up to be a complex threat to modern enterprises. Attackers infiltrate and cripple computer networks across the spectrum indiscriminately; hospitals, schools, factories, councils, utilities and of course government to name just a few.",
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
   "slug": "/intro",
   "permalink": "/docs/intro",
+  "draft": false,
   "editUrl": "https://github.com/PreventRansomware/PreventRansomware/docs/intro.md",
+  "tags": [],
   "version": "current",
   "sidebarPosition": 1,
   "frontMatter": {
