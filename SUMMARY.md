@@ -1,22 +1,23 @@
 # Table of contents
 
-
-- [Introduction][1] 
+- [ Welcome][1]
+- [Introduction][2] 
 
 - Initial Compromise
-	- [Intro][2]
-	- [ Exploitation Of Networking Appliances][3]
-		-[ Stolen Credentials ][4]
-	- [ Phishing][5]
-	-  [ Permissive Firewall Rules][6]
+	- [Intro][3]
+	- [ Exploitation Of Networking Appliances][4]
+		-[ Stolen Credentials ][5]
+	- [ Phishing][6]
+	-  [ Permissive Firewall Rules][7]
 
 
 
 
 
-[1]:	INTRO.md
-[2]:	initial-compromise/intro.md
-[3]:	initial-compromise/ExplotationOfNetworkingAppliances.md
-[4]:	initial-compromise/StolenCredentials.md
-[5]:	initial-compromise/Phishing.md
-[6]:	initial-compromise/Permissive%20Firewall%20Rules.md
+[1]:	Welcome.md
+[2]:	INTRO.md
+[3]:	initial-compromise/intro.md
+[4]:	initial-compromise/ExplotationOfNetworkingAppliances.md
+[5]:	initial-compromise/StolenCredentials.md
+[6]:	initial-compromise/Phishing.md
+[7]:	initial-compromise/Permissive%20Firewall%20Rules.md
