@@ -1,11 +1,12 @@
 # Table of contents
 
 
-* [Introduction][1] 
+- [Introduction][1] 
 
-- [InitialCompromise][2]
+- Initial Compromise
+	- [Intro][2]
 
 
 
 [1]:	INTRO.md
-[2]:	InitialCompromise/Intro.md
+[2]:	initial-compromise/intro.md
