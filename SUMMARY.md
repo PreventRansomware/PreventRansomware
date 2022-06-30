@@ -17,7 +17,7 @@
 
 
 [1]:	Welcome.md
-[2]:	INTRO.md
+[2]:	Foreword.md
 [3]:	initial-compromise/intro.md
 [4]:	initial-compromise/ExplotationOfNetworkingAppliances.md
 [5]:	initial-compromise/StolenCredentials.md
