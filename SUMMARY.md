@@ -1,6 +1,6 @@
 # Table of contents
 
-- [ Welcome][1]
+- [Home][1]
 - [ Foreword][2] 
 
 - Initial Compromise
@@ -9,8 +9,7 @@
 		-[ Stolen Credentials ][5]
 	- [ Phishing][6]
 	-  [ Permissive Firewall Rules][7]
-
--[ Contribute To The Site][8]
+	- [ Contribute To The Site][8]
 
 
 
