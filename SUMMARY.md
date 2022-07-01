@@ -1,24 +1,12 @@
 # Table of contents
 
-- [Home][1]
-- [ Foreword][2] 
-
-- Initial Compromise
-	- [Intro][3]
-	- [ Exploitation Of Networking Appliances][4]
-		-[ Stolen Credentials ][5]
-	- [ Phishing][6]
-	-  [ Permissive Firewall Rules][7]
-	- [ Contribute To The Site][8]
-
-
-
-
-[1]:	Welcome.md
-[2]:	Foreword.md
-[3]:	initial-compromise/intro.md
-[4]:	initial-compromise/ExplotationOfNetworkingAppliances.md
-[5]:	initial-compromise/StolenCredentials.md
-[6]:	initial-compromise/Phishing.md
-[7]:	initial-compromise/Permissive%20Firewall%20Rules.md
-[8]:	README.md
+* [What is PreventRansomware?](README.md)
+* [Foreword](Foreword.md)
+* [Initial Compromise](initial-compromise/README.md)
+  * [Intro](initial-compromise/intro.md)
+  * [Exploitation Of Networking Appliances](initial-compromise/ExplotationOfNetworkingAppliances.md)
+  * [Phishing](initial-compromise/Phishing.md)
+  * [Permissive Firewall Rules](<initial-compromise/Permissive Firewall Rules.md>)
+  * [Contribute To The Site](<README (1).md>)
+* [How to contribute](how-to-contribute/README.md)
+  * [README](how-to-contribute/readme.md)
