@@ -2,8 +2,6 @@
 layout: landing
 ---
 
-# PreventRansomware.io
-
 
 
 ![](<.gitbook/assets/banner (1).png>)
