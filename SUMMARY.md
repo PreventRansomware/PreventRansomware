@@ -10,8 +10,7 @@
 	- [ Phishing][6]
 	-  [ Permissive Firewall Rules][7]
 
-- Contribute
-	- [Read Me][8]
+-[ Contribute To The Site][8]
 
 
 
