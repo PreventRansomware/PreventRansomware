@@ -25,5 +25,5 @@
 [6]:	InitialCompromise/Phishing.md
 [7]:	InitialCompromise/PermissiveFirewallRules.md
 [8]:	PostCompromise/Intro.md
-[9]:	PostCompromise/Persistance.md
+[9]:	PostCompromise/Persistence.md
 [10]:	PostCompromise/PrivilegeEscalation.md
