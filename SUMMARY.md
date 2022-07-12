@@ -1,11 +1,28 @@
 # Table of contents
 
-* [PreventRansomware.io](README.md)
-* [Foreword](Foreword.md)
-* [Initial Compromise](initial-compromise/README.md)
-  * [Intro](initial-compromise/intro.md)
-  * [Exploitation Of Networking Appliances](initial-compromise/ExplotationOfNetworkingAppliances.md)
-  * [Phishing](initial-compromise/Phishing.md)
-  * [Permissive Firewall Rules](<initial-compromise/Permissive Firewall Rules.md>)
-* [How to contribute](how-to-contribute/README.md)
-  * [README](<README (1).md>)
+* [PreventRansomware.io][1]
+* [Foreword][2]
+* [Initial Compromise][3]
+	  * [Intro][4]
+	  * [Exploitation Of Networking Appliances][5]
+	  * [Phishing][6]
+	* [ Misconfigured Firewalls][7]
+* Post Compromise
+	* [ Intro][8]
+	* [ Persistance][9]
+	*  [ Privilege Escalation][10]
+
+
+
+
+
+[1]:	README.md
+[2]:	Foreword.md
+[3]:	initial-compromise
+[4]:	InitialCompromise/intro.md
+[5]:	InitialCompromise/ExplotationOfNetworkingAppliances.md
+[6]:	InitialCompromise/Phishing.md
+[7]:	InitialCompromise/PermissiveFirewallRules.md
+[8]:	PostCompromise/Intro.md
+[9]:	PostCompromise/Persistance.md
+[10]:	PostCompromise/PrivilegeEscalation.md
