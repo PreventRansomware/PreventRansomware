@@ -1,25 +1,27 @@
 {
   "unversionedId": "Post Compromise/Summary",
   "id": "Post Compromise/Summary",
-  "isDocsHomePage": false,
-  "title": "Persistence",
-  "description": "",
+  "title": "Foreword",
+  "description": "Once a ransomware operator has gotten onto your network, they want to achieve predictable objectives. In most cases, the attacker seeks:",
   "source": "@site/docs/Post Compromise/Summary.md",
   "sourceDirName": "Post Compromise",
   "slug": "/Post Compromise/Summary",
   "permalink": "/docs/Post Compromise/Summary",
-  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Post Compromise/Summary.md",
+  "draft": false,
+  "editUrl": "https://github.com/PreventRansomware/PreventRansomware/docs/Post Compromise/Summary.md",
+  "tags": [],
   "version": "current",
+  "sidebarPosition": 1,
   "frontMatter": {
-    "sidebar\\_position": 2
+    "sidebar_position": 1
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Stolen Credentials",
-    "permalink": "/docs/Initial Compromise/Stolen Credentials"
+    "title": "Permissive Firewall Rules",
+    "permalink": "/docs/Initial Compromise/Permissive Firewall Rules"
   },
   "next": {
-    "title": "Introduction",
-    "permalink": "/docs/Post Compromise/introduction"
+    "title": "Lateral Movement",
+    "permalink": "/docs/Post Compromise/LateralMovement"
   }
 }

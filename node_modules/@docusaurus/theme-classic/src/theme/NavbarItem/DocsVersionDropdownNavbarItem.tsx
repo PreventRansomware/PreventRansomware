@@ -6,19 +6,18 @@
  */
 
 import React from 'react';
-import DefaultNavbarItem from '@theme/NavbarItem/DefaultNavbarItem';
-import DropdownNavbarItem from '@theme/NavbarItem/DropdownNavbarItem';
 import {
   useVersions,
   useActiveDocContext,
 } from '@docusaurus/plugin-content-docs/client';
-import {
-  useDocsPreferredVersion,
-  useDocsVersionCandidates,
-} from '@docusaurus/theme-common';
+import {useDocsPreferredVersion} from '@docusaurus/theme-common';
+import {useDocsVersionCandidates} from '@docusaurus/theme-common/internal';
 import {translate} from '@docusaurus/Translate';
-import type {GlobalVersion} from '@docusaurus/plugin-content-docs/client';
+import {useLocation} from '@docusaurus/router';
+import DefaultNavbarItem from '@theme/NavbarItem/DefaultNavbarItem';
+import DropdownNavbarItem from '@theme/NavbarItem/DropdownNavbarItem';
 import type {Props} from '@theme/NavbarItem/DocsVersionDropdownNavbarItem';
+import type {GlobalVersion} from '@docusaurus/plugin-content-docs/client';
 
 const getVersionMainDoc = (version: GlobalVersion) =>
   version.docs.find((doc) => doc.id === version.mainDocId)!;
@@ -31,6 +30,7 @@ export default function DocsVersionDropdownNavbarItem({
   dropdownItemsAfter,
   ...props
 }: Props): JSX.Element {
+  const {search, hash} = useLocation();
   const activeDocContext = useActiveDocContext(docsPluginId);
   const versions = useVersions(docsPluginId);
   const {savePreferredVersionName} = useDocsPreferredVersion(docsPluginId);
@@ -38,13 +38,13 @@ export default function DocsVersionDropdownNavbarItem({
     // We try to link to the same doc, in another version
     // When not possible, fallback to the "main doc" of the version
     const versionDoc =
-      activeDocContext?.alternateDocVersions[version.name] ??
+      activeDocContext.alternateDocVersions[version.name] ??
       getVersionMainDoc(version);
     return {
-      isNavLink: true,
       label: version.label,
-      to: versionDoc.path,
-      isActive: () => version === activeDocContext?.activeVersion,
+      // preserve ?search#hash suffix on version switches
+      to: `${versionDoc.path}${search}${hash}`,
+      isActive: () => version === activeDocContext.activeVersion,
       onClick: () => savePreferredVersionName(version.name),
     };
   });

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Post Compromise/LateralMovement",
+  "id": "Post Compromise/LateralMovement",
+  "title": "Lateral Movement",
+  "description": "",
+  "source": "@site/docs/Post Compromise/LateralMovement.md",
+  "sourceDirName": "Post Compromise",
+  "slug": "/Post Compromise/LateralMovement",
+  "permalink": "/docs/Post Compromise/LateralMovement",
+  "draft": false,
+  "editUrl": "https://github.com/PreventRansomware/PreventRansomware/docs/Post Compromise/LateralMovement.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "sidebar\\_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Foreword",
+    "permalink": "/docs/Post Compromise/Summary"
+  },
+  "next": {
+    "title": "Privilege Escalation and Credential Theft",
+    "permalink": "/docs/Post Compromise/Privilege Escalation"
+  }
+}

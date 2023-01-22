@@ -46,8 +46,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Post Compromise/Foreword",
-              "path": "/docs/Post Compromise/Foreword",
+              "id": "Post Compromise/LateralMovement",
+              "path": "/docs/Post Compromise/LateralMovement",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -58,6 +58,11 @@
             {
               "id": "Post Compromise/Privilege Escalation",
               "path": "/docs/Post Compromise/Privilege Escalation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Post Compromise/Summary",
+              "path": "/docs/Post Compromise/Summary",
               "sidebar": "tutorialSidebar"
             },
             {

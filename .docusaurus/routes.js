@@ -4,47 +4,102 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 export default [
   {
     path: '/__docusaurus/debug',
-    component: ComponentCreator('/__docusaurus/debug', '350'),
+    component: ComponentCreator('/__docusaurus/debug', '7d5'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/config',
-    component: ComponentCreator('/__docusaurus/debug/config', '267'),
+    component: ComponentCreator('/__docusaurus/debug/config', 'd86'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/content',
-    component: ComponentCreator('/__docusaurus/debug/content', '806'),
+    component: ComponentCreator('/__docusaurus/debug/content', '5bb'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/globalData',
-    component: ComponentCreator('/__docusaurus/debug/globalData', 'eef'),
+    component: ComponentCreator('/__docusaurus/debug/globalData', '321'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/metadata',
-    component: ComponentCreator('/__docusaurus/debug/metadata', 'df1'),
+    component: ComponentCreator('/__docusaurus/debug/metadata', '9e2'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/registry',
-    component: ComponentCreator('/__docusaurus/debug/registry', '3e4'),
+    component: ComponentCreator('/__docusaurus/debug/registry', '6ab'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/routes',
-    component: ComponentCreator('/__docusaurus/debug/routes', 'b41'),
+    component: ComponentCreator('/__docusaurus/debug/routes', '230'),
+    exact: true
+  },
+  {
+    path: '/blog',
+    component: ComponentCreator('/blog', '129'),
+    exact: true
+  },
+  {
+    path: '/blog/archive',
+    component: ComponentCreator('/blog/archive', '1e8'),
+    exact: true
+  },
+  {
+    path: '/blog/first-blog-post',
+    component: ComponentCreator('/blog/first-blog-post', '4e7'),
+    exact: true
+  },
+  {
+    path: '/blog/long-blog-post',
+    component: ComponentCreator('/blog/long-blog-post', '707'),
+    exact: true
+  },
+  {
+    path: '/blog/mdx-blog-post',
+    component: ComponentCreator('/blog/mdx-blog-post', 'bdd'),
+    exact: true
+  },
+  {
+    path: '/blog/tags',
+    component: ComponentCreator('/blog/tags', 'a16'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/docusaurus',
+    component: ComponentCreator('/blog/tags/docusaurus', '5c4'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/facebook',
+    component: ComponentCreator('/blog/tags/facebook', 'd5e'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/hello',
+    component: ComponentCreator('/blog/tags/hello', '258'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/hola',
+    component: ComponentCreator('/blog/tags/hola', '683'),
+    exact: true
+  },
+  {
+    path: '/blog/welcome',
+    component: ComponentCreator('/blog/welcome', '504'),
     exact: true
   },
   {
     path: '/markdown-page',
-    component: ComponentCreator('/markdown-page', '982'),
+    component: ComponentCreator('/markdown-page', '0d0'),
     exact: true
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'f09'),
+    component: ComponentCreator('/docs', 'df7'),
     routes: [
       {
         path: '/docs/Initial Compromise/Explotation Of Networking Appliances',
@@ -89,8 +144,8 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/Post Compromise/Foreword',
-        component: ComponentCreator('/docs/Post Compromise/Foreword', '802'),
+        path: '/docs/Post Compromise/LateralMovement',
+        component: ComponentCreator('/docs/Post Compromise/LateralMovement', '66b'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -107,6 +162,12 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
+        path: '/docs/Post Compromise/Summary',
+        component: ComponentCreator('/docs/Post Compromise/Summary', 'b87'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
         path: '/docs/Vendor Specific/introduction',
         component: ComponentCreator('/docs/Vendor Specific/introduction', 'e1f'),
         exact: true,
@@ -116,7 +177,7 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', '656'),
+    component: ComponentCreator('/', '825'),
     exact: true
   },
   {

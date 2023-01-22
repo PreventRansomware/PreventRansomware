@@ -4,6 +4,7 @@
   "label": "Next",
   "banner": null,
   "badge": false,
+  "noIndex": false,
   "className": "docs-version-current",
   "isLast": true,
   "docsSidebars": {
@@ -61,8 +62,14 @@
           {
             "type": "link",
             "label": "Foreword",
-            "href": "/docs/Post Compromise/Foreword",
-            "docId": "Post Compromise/Foreword"
+            "href": "/docs/Post Compromise/Summary",
+            "docId": "Post Compromise/Summary"
+          },
+          {
+            "type": "link",
+            "label": "Lateral Movement",
+            "href": "/docs/Post Compromise/LateralMovement",
+            "docId": "Post Compromise/LateralMovement"
           },
           {
             "type": "link",
@@ -124,7 +131,7 @@
     "Initial Compromise/Phishing Attacks": {
       "id": "Initial Compromise/Phishing Attacks",
       "title": "Phishing Attacks",
-      "description": "Phishing attacks come in many flavours. Almost all of them are enjoyed by ransomware operators. Phishing is one of the most common ways for ransomware to seep into a network directly or indirectly. As an attack technique, its popularity is probably fuelled by its success which relies on social engineering.",
+      "description": "Phishing attacks come in many flavours. Almost all of them are enjoyed by ransomware operators. Phishing is one of the most common ways ransomware seep into a network directly or indirectly. As an attack technique, its popularity is fuelled by its success which relies on social engineering.",
       "sidebar": "tutorialSidebar"
     },
     "Initial Compromise/Stolen Credentials": {
@@ -151,10 +158,10 @@
       "description": "In an ideal world the following file extensions should not be allowed through your eMail gateway. This list isn’t universal and may not be suitable for every organisation but instead should work as a guideline. You may find your business actually needs a particular file extension for their business, thats fine.",
       "sidebar": "tutorialSidebar"
     },
-    "Post Compromise/Foreword": {
-      "id": "Post Compromise/Foreword",
-      "title": "Foreword",
-      "description": "Once a ransomware operator has gotten onto your network, they want to achieve predictable objectives. In most cases, the attacker seeks:",
+    "Post Compromise/LateralMovement": {
+      "id": "Post Compromise/LateralMovement",
+      "title": "Lateral Movement",
+      "description": "",
       "sidebar": "tutorialSidebar"
     },
     "Post Compromise/persistance": {
@@ -167,6 +174,12 @@
       "id": "Post Compromise/Privilege Escalation",
       "title": "Privilege Escalation and Credential Theft",
       "description": "When an attacker first gains their initial foothold on a network, they will most likely find themselves executing code as a low privileged user, perhaps an account used for general office work that has been phished with a malicious Excel document disguised as a business invoice.",
+      "sidebar": "tutorialSidebar"
+    },
+    "Post Compromise/Summary": {
+      "id": "Post Compromise/Summary",
+      "title": "Foreword",
+      "description": "Once a ransomware operator has gotten onto your network, they want to achieve predictable objectives. In most cases, the attacker seeks:",
       "sidebar": "tutorialSidebar"
     },
     "Vendor Specific/introduction": {

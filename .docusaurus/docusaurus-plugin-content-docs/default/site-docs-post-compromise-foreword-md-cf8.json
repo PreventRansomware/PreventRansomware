@@ -21,7 +21,7 @@
     "permalink": "/docs/Initial Compromise/Permissive Firewall Rules"
   },
   "next": {
-    "title": "Privilege Escalation and Credential Theft",
-    "permalink": "/docs/Post Compromise/Privilege Escalation"
+    "title": "Lateral Movement",
+    "permalink": "/docs/Post Compromise/LateralMovement"
   }
 }
