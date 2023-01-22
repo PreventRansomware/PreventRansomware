@@ -1,251 +1,208 @@
 {
-  "/__docusaurus/debug-7d5": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---docusaurus-debug-803-ac2"
-    }
-  },
-  "/__docusaurus/debug/config-d86": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---docusaurus-debug-803-ac2"
-    }
-  },
-  "/__docusaurus/debug/content-5bb": {
-    "__comp": "__comp---theme-debug-contentba-8-ce7",
-    "__context": {
-      "plugin": "plugin---docusaurus-debug-803-ac2"
-    },
-    "allContent": "allContent---docusaurus-debug-content-246-9aa"
-  },
-  "/__docusaurus/debug/globalData-321": {
-    "__comp": "__comp---theme-debug-global-dataede-0fa",
-    "__context": {
-      "plugin": "plugin---docusaurus-debug-803-ac2"
-    }
-  },
-  "/__docusaurus/debug/metadata-9e2": {
-    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
-    "__context": {
-      "plugin": "plugin---docusaurus-debug-803-ac2"
-    }
-  },
-  "/__docusaurus/debug/registry-6ab": {
-    "__comp": "__comp---theme-debug-registry-679-501",
-    "__context": {
-      "plugin": "plugin---docusaurus-debug-803-ac2"
-    }
-  },
-  "/__docusaurus/debug/routes-230": {
-    "__comp": "__comp---theme-debug-routes-946-699",
-    "__context": {
-      "plugin": "plugin---docusaurus-debug-803-ac2"
-    }
-  },
   "/blog-129": {
-    "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
+    "__comp": "a6aa9e1f",
     "__context": {
-      "plugin": "plugin---blog-7-d-6-a69"
+      "plugin": "7d6dd59f"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-766-e3c"
+        "content": "7661071f"
       },
       {
-        "content": "content---blogf-4-f-cd7"
+        "content": "f4f34a3a"
       },
       {
-        "content": "content---blog-871-381"
+        "content": "8717b14a"
       },
       {
-        "content": "content---blog-925-e00"
+        "content": "925b3f96"
       }
     ],
-    "metadata": "metadata---blogb-2-b-df1"
+    "metadata": "b2b675dd"
   },
   "/blog/archive-1e8": {
-    "__comp": "__comp---theme-blog-archive-page-9-e-4-1d8",
+    "__comp": "9e4087bc",
     "__context": {
-      "plugin": "plugin---blog-7-d-6-a69"
+      "plugin": "7d6dd59f"
     },
-    "archive": "archive---blog-archiveb-2-f-393"
+    "archive": "b2f554cd"
   },
   "/blog/first-blog-post-4e7": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
-      "plugin": "plugin---blog-7-d-6-a69"
+      "plugin": "7d6dd59f"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-first-blog-poste-27-4a1"
+    "sidebar": "814f3328",
+    "content": "e273c56f"
   },
   "/blog/long-blog-post-707": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
-      "plugin": "plugin---blog-7-d-6-a69"
+      "plugin": "7d6dd59f"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-long-blog-post-736-bc7"
+    "sidebar": "814f3328",
+    "content": "73664a40"
   },
   "/blog/mdx-blog-post-bdd": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
-      "plugin": "plugin---blog-7-d-6-a69"
+      "plugin": "7d6dd59f"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-mdx-blog-post-593-37b"
+    "sidebar": "814f3328",
+    "content": "59362658"
   },
   "/blog/tags-a16": {
-    "__comp": "__comp---theme-blog-tags-list-page-01-a-d0b",
+    "__comp": "01a85c17",
     "__context": {
-      "plugin": "plugin---blog-7-d-6-a69"
+      "plugin": "7d6dd59f"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "tags": "tags---blog-tagsa-70-da2"
+    "sidebar": "814f3328",
+    "tags": "a7023ddc"
   },
   "/blog/tags/docusaurus-5c4": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-7-d-6-a69"
+      "plugin": "7d6dd59f"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-766-e3c"
+        "content": "7661071f"
       },
       {
-        "content": "content---blogf-4-f-cd7"
+        "content": "f4f34a3a"
       },
       {
-        "content": "content---blog-871-381"
+        "content": "8717b14a"
       },
       {
-        "content": "content---blog-925-e00"
+        "content": "925b3f96"
       }
     ],
-    "tag": "tag---blog-tags-docusaurusa-80-728",
-    "listMetadata": "listMetadata---blog-tags-docusaurus-608-c09"
+    "tag": "a80da1cf",
+    "listMetadata": "608ae6a4"
   },
   "/blog/tags/facebook-d5e": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-7-d-6-a69"
+      "plugin": "7d6dd59f"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-766-e3c"
+        "content": "7661071f"
       }
     ],
-    "tag": "tag---blog-tags-facebook-031-c52",
-    "listMetadata": "listMetadata---blog-tags-facebook-096-d31"
+    "tag": "031793e1",
+    "listMetadata": "096bfee4"
   },
   "/blog/tags/hello-258": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-7-d-6-a69"
+      "plugin": "7d6dd59f"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-766-e3c"
+        "content": "7661071f"
       },
       {
-        "content": "content---blog-871-381"
+        "content": "8717b14a"
       }
     ],
-    "tag": "tag---blog-tags-hello-30-a-bed",
-    "listMetadata": "listMetadata---blog-tags-hello-664-70a"
+    "tag": "30a24c52",
+    "listMetadata": "66406991"
   },
   "/blog/tags/hola-683": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-7-d-6-a69"
+      "plugin": "7d6dd59f"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-925-e00"
+        "content": "925b3f96"
       }
     ],
-    "tag": "tag---blog-tags-holae-16-18a",
-    "listMetadata": "listMetadata---blog-tags-hola-4-c-9-a24"
+    "tag": "e16015ca",
+    "listMetadata": "4c9e35b1"
   },
   "/blog/welcome-504": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
-      "plugin": "plugin---blog-7-d-6-a69"
+      "plugin": "7d6dd59f"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-welcomed-9-f-ffb"
+    "sidebar": "814f3328",
+    "content": "d9f32620"
   },
   "/markdown-page-0d0": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---markdown-page-5-fc-186"
+      "plugin": "5fc59121"
     },
-    "content": "content---markdown-page-393-028"
+    "content": "393be207"
   },
   "/docs-df7": {
-    "__comp": "__comp---theme-doc-page-1-be-9be",
+    "__comp": "1be78505",
     "__context": {
-      "plugin": "plugin---docs-0-e-6-bc1"
+      "plugin": "0e6995d2"
     },
-    "versionMetadata": "versionMetadata---docs-935-398"
+    "versionMetadata": "935f2afb"
   },
   "/docs/Initial Compromise/Explotation Of Networking Appliances-437": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-initial-compromise-explotation-of-networking-appliancesdc-1-6d1"
+    "__comp": "17896441",
+    "content": "dc1d230c"
   },
   "/docs/Initial Compromise/Permissive Firewall Rules-b54": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-initial-compromise-permissive-firewall-rules-0-e-4-c17"
+    "__comp": "17896441",
+    "content": "0e4728ad"
   },
   "/docs/Initial Compromise/Phishing Attacks-01f": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-initial-compromise-phishing-attacks-31-a-38c"
+    "__comp": "17896441",
+    "content": "31abd106"
   },
   "/docs/Initial Compromise/Stolen Credentials-485": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-initial-compromise-stolen-credentials-106-c02"
+    "__comp": "17896441",
+    "content": "1069e102"
   },
   "/docs/Initial Compromise/Summary-030": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-initial-compromise-summary-9-ee-cd7"
+    "__comp": "17896441",
+    "content": "9ee89c86"
   },
   "/docs/intro-aed": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-intro-0-e-3-be1"
+    "__comp": "17896441",
+    "content": "0e384e19"
   },
   "/docs/Lists/Bad eMail File Extensions-f18": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-lists-bad-e-mail-file-extensions-642-01a"
+    "__comp": "17896441",
+    "content": "6429a18c"
   },
   "/docs/Post Compromise/LateralMovement-66b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-post-compromise-lateral-movemente-6-f-a1c"
+    "__comp": "17896441",
+    "content": "e6f09742"
   },
   "/docs/Post Compromise/persistance-8be": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-post-compromise-persistance-769-ea4"
+    "__comp": "17896441",
+    "content": "769386b8"
   },
   "/docs/Post Compromise/Privilege Escalation-94c": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-post-compromise-privilege-escalation-102-873"
+    "__comp": "17896441",
+    "content": "102791c7"
   },
   "/docs/Post Compromise/Summary-b87": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-post-compromise-summaryf-7-a-4c2"
+    "__comp": "17896441",
+    "content": "f7a8944c"
   },
   "/docs/Vendor Specific/introduction-e1f": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-vendor-specific-introduction-4-d-2-b30"
+    "__comp": "17896441",
+    "content": "4d2beded"
   },
   "/-825": {
-    "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
+    "__comp": "c4f5d8e4",
     "__context": {
-      "plugin": "plugin---markdown-page-5-fc-186"
+      "plugin": "5fc59121"
     },
-    "config": "config---5-e-9-4f3"
+    "config": "5e9f5e1a"
   }
 }
