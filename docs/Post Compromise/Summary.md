@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Foreword
+# Summary
 Once a ransomware operator has gotten onto your network, they want to achieve predictable objectives. In most cases, the attacker seeks:
 
 -** Persistence **- After gaining an initial foothold, the attacker will attempt to sink an anchor into the victim network that will enable them to come back and maintain access. This is commonly done by configuring the first infected machine to call back to the attacker even if it’s rebooted.  

@@ -1,7 +1,7 @@
 {
   "unversionedId": "Post Compromise/Summary",
   "id": "Post Compromise/Summary",
-  "title": "Foreword",
+  "title": "Summary",
   "description": "Once a ransomware operator has gotten onto your network, they want to achieve predictable objectives. In most cases, the attacker seeks:",
   "source": "@site/docs/Post Compromise/Summary.md",
   "sourceDirName": "Post Compromise",
@@ -21,7 +21,7 @@
     "permalink": "/docs/Initial Compromise/Permissive Firewall Rules"
   },
   "next": {
-    "title": "Lateral Movement",
-    "permalink": "/docs/Post Compromise/LateralMovement"
+    "title": "Persistence",
+    "permalink": "/docs/Post Compromise/persistance"
   }
 }

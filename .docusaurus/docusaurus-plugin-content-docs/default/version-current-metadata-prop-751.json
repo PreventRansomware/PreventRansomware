@@ -61,27 +61,27 @@
         "items": [
           {
             "type": "link",
-            "label": "Foreword",
+            "label": "Summary",
             "href": "/docs/Post Compromise/Summary",
             "docId": "Post Compromise/Summary"
-          },
-          {
-            "type": "link",
-            "label": "Lateral Movement",
-            "href": "/docs/Post Compromise/LateralMovement",
-            "docId": "Post Compromise/LateralMovement"
-          },
-          {
-            "type": "link",
-            "label": "Privilege Escalation and Credential Theft",
-            "href": "/docs/Post Compromise/Privilege Escalation",
-            "docId": "Post Compromise/Privilege Escalation"
           },
           {
             "type": "link",
             "label": "Persistence",
             "href": "/docs/Post Compromise/persistance",
             "docId": "Post Compromise/persistance"
+          },
+          {
+            "type": "link",
+            "label": "Privilege Escalation",
+            "href": "/docs/Post Compromise/Privilege Escalation",
+            "docId": "Post Compromise/Privilege Escalation"
+          },
+          {
+            "type": "link",
+            "label": "Lateral Movement",
+            "href": "/docs/Post Compromise/LateralMovement",
+            "docId": "Post Compromise/LateralMovement"
           }
         ]
       },
@@ -172,13 +172,13 @@
     },
     "Post Compromise/Privilege Escalation": {
       "id": "Post Compromise/Privilege Escalation",
-      "title": "Privilege Escalation and Credential Theft",
+      "title": "Privilege Escalation",
       "description": "When an attacker first gains their initial foothold on a network, they will most likely find themselves executing code as a low privileged user, perhaps an account used for general office work that has been phished with a malicious Excel document disguised as a business invoice.",
       "sidebar": "tutorialSidebar"
     },
     "Post Compromise/Summary": {
       "id": "Post Compromise/Summary",
-      "title": "Foreword",
+      "title": "Summary",
       "description": "Once a ransomware operator has gotten onto your network, they want to achieve predictable objectives. In most cases, the attacker seeks:",
       "sidebar": "tutorialSidebar"
     },

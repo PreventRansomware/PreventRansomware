@@ -11,16 +11,17 @@
   "editUrl": "https://github.com/PreventRansomware/PreventRansomware/docs/Post Compromise/persistance.md",
   "tags": [],
   "version": "current",
+  "sidebarPosition": 2,
   "frontMatter": {
-    "sidebar\\_position": 2
+    "sidebar_position": 2
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Privilege Escalation and Credential Theft",
-    "permalink": "/docs/Post Compromise/Privilege Escalation"
+    "title": "Summary",
+    "permalink": "/docs/Post Compromise/Summary"
   },
   "next": {
-    "title": "Which EDR?",
-    "permalink": "/docs/Vendor Specific/introduction"
+    "title": "Privilege Escalation",
+    "permalink": "/docs/Post Compromise/Privilege Escalation"
   }
 }
