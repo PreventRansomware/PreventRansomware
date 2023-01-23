@@ -30,7 +30,7 @@ export default function Home() {
   return (
     <Layout
       title={`PreventRansomware`}
-      description="Free, open source ransomware prevention.">
+      description="Free, open source documentation that beats ransomware via education.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
