@@ -131,7 +131,7 @@
     "Initial Compromise/Phishing Attacks": {
       "id": "Initial Compromise/Phishing Attacks",
       "title": "Phishing Attacks",
-      "description": "Phishing attacks come in many flavours. Almost all of them are enjoyed by ransomware operators. Phishing is one of the most common ways ransomware seep into a network directly or indirectly. As an attack technique, its popularity is fuelled by its success which relies on social engineering.",
+      "description": "Phishing is one of the most common ways ransomware seeps into a network. As an attack technique, its popularity is probably fuelled by its success.",
       "sidebar": "tutorialSidebar"
     },
     "Initial Compromise/Stolen Credentials": {
