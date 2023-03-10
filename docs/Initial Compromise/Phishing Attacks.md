@@ -67,6 +67,7 @@ Traditional antivirus looks for file hashes that act similarly to a policeman lo
 
 EDR tools are a good final layer against phishing attacks which have made it through your other walls of defence, although they can be costly and time-consuming to deploy. Later in our documentation, we have a section dedicated to finding and selecting an EDR tool.
 
+PrevetnRansomware has complied a list of file types that under no circumstances should be allowed to be delivered to users. [The list can be found here][12]
 
 [1]:    https://www.techrepublic.com/article/for-sale-access-to-your-company-network-price-less-than-youd-think/
 [2]:    https://i.ytimg.com/vi/vheFIrl1LAs/maxresdefault.jpg
