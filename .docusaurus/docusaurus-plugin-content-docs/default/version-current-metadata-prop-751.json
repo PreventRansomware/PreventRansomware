@@ -119,7 +119,7 @@
     "Initial Compromise/Explotation Of Networking Appliances": {
       "id": "Initial Compromise/Explotation Of Networking Appliances",
       "title": "Explotation Of Networking Appliances",
-      "description": "Edge of network appliances like VPNs and Citrix access gateways are often installed to grant roaming users access to internal resources like files and applications or, in the case of Exchange servers, eMail. These appliances straddle the gap between the internet and the internal network, their somewhat precarious location (known as the DMZ or just edge) makes them an attractive target for attackers because successful compromise could create a pathway from the attacker’s computer directly into the victim’s internal network.",
+      "description": "Edge-of-network appliances like VPNs and Citrix access gateways are often installed to grant roaming users access to internal resources like files and applications or, in the case of Exchange servers, eMail. These appliances straddle the gap between the internet and the internal network, their somewhat precarious location (known as the DMZ or just edge) makes them an attractive target for attackers because successful compromise could create a pathway from the attacker's computer directly into the victim's internal network.",
       "sidebar": "tutorialSidebar"
     },
     "Initial Compromise/Permissive Firewall Rules": {
@@ -167,7 +167,7 @@
     "Post Compromise/persistance": {
       "id": "Post Compromise/persistance",
       "title": "Persistence",
-      "description": "Remote access tools like CobaltStrike Beacons avoid detection by living in RAM and never writing themselves into persistent storage; therefore, a system reboot might be enough to shake a successful beacon/implant. Attackers need their access to be persistent, so they can come back to the victim network and continue their operations day after day, or in some cases, for the few short hours it takes them to deploy ransomware.",
+      "description": "Remote access tools like CobaltStrike Beacons avoid detection by living in RAM and never writing themselves into persistent storage; therefore, a system reboot might be enough to shake a successful implant. Attackers need their access to be persistent, so they can come back to the victim network and continue their operations day after day, or in some cases, for the few short hours it takes them to deploy ransomware.",
       "sidebar": "tutorialSidebar"
     },
     "Post Compromise/Privilege Escalation": {

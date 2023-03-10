@@ -2,7 +2,7 @@
   "unversionedId": "Post Compromise/persistance",
   "id": "Post Compromise/persistance",
   "title": "Persistence",
-  "description": "Remote access tools like CobaltStrike Beacons avoid detection by living in RAM and never writing themselves into persistent storage; therefore, a system reboot might be enough to shake a successful beacon/implant. Attackers need their access to be persistent, so they can come back to the victim network and continue their operations day after day, or in some cases, for the few short hours it takes them to deploy ransomware.",
+  "description": "Remote access tools like CobaltStrike Beacons avoid detection by living in RAM and never writing themselves into persistent storage; therefore, a system reboot might be enough to shake a successful implant. Attackers need their access to be persistent, so they can come back to the victim network and continue their operations day after day, or in some cases, for the few short hours it takes them to deploy ransomware.",
   "source": "@site/docs/Post Compromise/persistance.md",
   "sourceDirName": "Post Compromise",
   "slug": "/Post Compromise/persistance",
