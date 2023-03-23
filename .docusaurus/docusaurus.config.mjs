@@ -305,11 +305,11 @@ export default {
       {
         "docs": {
           "sidebarPath": "/Users/cc/Documents/PreventRansomware/sidebars.js",
-          "editUrl": "https://github.com/PreventRansomware/PreventRansomware"
+          "editUrl": "https://github.com/PreventRansomware/PreventRansomware/"
         },
         "blog": {
           "showReadingTime": true,
-          "editUrl": "https://github.com/PreventRansomware/PreventRansomware"
+          "editUrl": "https://github.com/PreventRansomware/PreventRansomware/"
         },
         "theme": {
           "customCss": "/Users/cc/Documents/PreventRansomware/src/css/custom.css"
