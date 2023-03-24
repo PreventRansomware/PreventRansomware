@@ -43,7 +43,12 @@ If your management team need some encouragement to install patches or sign off o
 - [ Unpatched exchanged leads to domain-wide ransomware][4]
 - [- Sonicwall Remote Code Execution ][5]
 
+Summary
 
+ IT administrators must ensure that any appliances exposed to the public internet are always running the most up-to-date software and firmware. Security patches must be installed as soon as possible. 
+Monitoring should be in place that sends alerts when updates are available or a new vulnerability is disclosed. 
+
+Steps should be taken to review external firewall configurations to ensure that no system control panels are exposed to the internet. Tools like Shodan.io can make finding exposed ports and control panels easier. We will expand on this point in the next section of our documentation.
 
 [1]:	https://secalerts.co
 [2]:	https://www.zdnet.com/article/hackers-target-unpatched-citrix-servers-to-deploy-ransomware/
