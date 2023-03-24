@@ -44,7 +44,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'df7'),
+    component: ComponentCreator('/docs', '686'),
     routes: [
       {
         path: '/docs/Initial Compromise/Explotation Of Networking Appliances',
@@ -83,8 +83,8 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/Lists/Bad eMail File Extensions',
-        component: ComponentCreator('/docs/Lists/Bad eMail File Extensions', 'f18'),
+        path: '/docs/Lists/BadAttachments',
+        component: ComponentCreator('/docs/Lists/BadAttachments', 'dee'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

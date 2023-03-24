@@ -178,20 +178,20 @@
               }
             },
             {
-              "unversionedId": "Lists/Bad eMail File Extensions",
-              "id": "Lists/Bad eMail File Extensions",
-              "title": "Bad eMail File Extensions",
+              "unversionedId": "Lists/BadAttachments",
+              "id": "Lists/BadAttachments",
+              "title": "BadAttachments",
               "description": "In an ideal world the following file extensions should not be allowed through your eMail gateway. This list isn’t universal and may not be suitable for every organisation but instead should work as a guideline. You may find your business actually needs a particular file extension for their business, thats fine.",
-              "source": "@site/docs/Lists/Bad eMail File Extensions.md",
+              "source": "@site/docs/Lists/BadAttachments.md",
               "sourceDirName": "Lists",
-              "slug": "/Lists/Bad eMail File Extensions",
-              "permalink": "/docs/Lists/Bad eMail File Extensions",
+              "slug": "/Lists/BadAttachments",
+              "permalink": "/docs/Lists/BadAttachments",
               "draft": false,
-              "editUrl": "https://github.com/PreventRansomware/PreventRansomware/docs/Lists/Bad eMail File Extensions.md",
+              "editUrl": "https://github.com/PreventRansomware/PreventRansomware/docs/Lists/BadAttachments.md",
               "tags": [],
               "version": "current",
               "frontMatter": {
-                "sidebar\\_position": 1
+                "sidebarposition": 1
               },
               "sidebar": "tutorialSidebar",
               "previous": {
@@ -222,8 +222,8 @@
                 "permalink": "/docs/Post Compromise/Privilege Escalation"
               },
               "next": {
-                "title": "Which EDR?",
-                "permalink": "/docs/Vendor Specific/introduction"
+                "title": "Persistence",
+                "permalink": "/docs/Post Compromise/persistance"
               }
             },
             {
@@ -239,25 +239,24 @@
               "editUrl": "https://github.com/PreventRansomware/PreventRansomware/docs/Post Compromise/persistance.md",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 2,
               "frontMatter": {
-                "sidebar_position": 2
+                "sidebar\\_position": 2
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Summary",
-                "permalink": "/docs/Post Compromise/Summary"
+                "title": "Lateral Movement",
+                "permalink": "/docs/Post Compromise/LateralMovement"
               },
               "next": {
-                "title": "Privilege Escalation",
-                "permalink": "/docs/Post Compromise/Privilege Escalation"
+                "title": "Which EDR?",
+                "permalink": "/docs/Vendor Specific/introduction"
               }
             },
             {
               "unversionedId": "Post Compromise/Privilege Escalation",
               "id": "Post Compromise/Privilege Escalation",
               "title": "Privilege Escalation",
-              "description": "When an attacker first gains their initial foothold on a network, they will most likely find themselves executing code as a low privileged user, perhaps an account used for general office work that has been phished with a malicious Excel document disguised as a business invoice.",
+              "description": "When an attacker first gains their initial foothold on a network, they will most likely find themselves executing code as a low privileged user, perhaps an account used for general office work that has been phished with a malicious document or similar.",
               "source": "@site/docs/Post Compromise/Privilege Escalation.md",
               "sourceDirName": "Post Compromise",
               "slug": "/Post Compromise/Privilege Escalation",
@@ -272,8 +271,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Persistence",
-                "permalink": "/docs/Post Compromise/persistance"
+                "title": "Summary",
+                "permalink": "/docs/Post Compromise/Summary"
               },
               "next": {
                 "title": "Lateral Movement",
@@ -303,8 +302,8 @@
                 "permalink": "/docs/Initial Compromise/Permissive Firewall Rules"
               },
               "next": {
-                "title": "Persistence",
-                "permalink": "/docs/Post Compromise/persistance"
+                "title": "Privilege Escalation",
+                "permalink": "/docs/Post Compromise/Privilege Escalation"
               }
             },
             {
@@ -325,12 +324,12 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Lateral Movement",
-                "permalink": "/docs/Post Compromise/LateralMovement"
+                "title": "Persistence",
+                "permalink": "/docs/Post Compromise/persistance"
               },
               "next": {
-                "title": "Bad eMail File Extensions",
-                "permalink": "/docs/Lists/Bad eMail File Extensions"
+                "title": "BadAttachments",
+                "permalink": "/docs/Lists/BadAttachments"
               }
             }
           ],
@@ -381,15 +380,15 @@
                   },
                   {
                     "type": "doc",
-                    "id": "Post Compromise/persistance"
-                  },
-                  {
-                    "type": "doc",
                     "id": "Post Compromise/Privilege Escalation"
                   },
                   {
                     "type": "doc",
                     "id": "Post Compromise/LateralMovement"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Post Compromise/persistance"
                   }
                 ]
               },
@@ -413,7 +412,7 @@
                 "items": [
                   {
                     "type": "doc",
-                    "id": "Lists/Bad eMail File Extensions"
+                    "id": "Lists/BadAttachments"
                   }
                 ]
               }

@@ -16,11 +16,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Lateral Movement",
-    "permalink": "/docs/Post Compromise/LateralMovement"
+    "title": "Persistence",
+    "permalink": "/docs/Post Compromise/persistance"
   },
   "next": {
-    "title": "Bad eMail File Extensions",
-    "permalink": "/docs/Lists/Bad eMail File Extensions"
+    "title": "BadAttachments",
+    "permalink": "/docs/Lists/BadAttachments"
   }
 }

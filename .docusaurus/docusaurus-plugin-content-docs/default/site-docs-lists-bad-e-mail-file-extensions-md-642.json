@@ -12,7 +12,7 @@
   "tags": [],
   "version": "current",
   "frontMatter": {
-    "sidebar\\_position": 1
+    "sidebarposition": 1
   },
   "sidebar": "tutorialSidebar",
   "previous": {

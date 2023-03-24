@@ -9,7 +9,7 @@ It's common for ransomware gangs to break into organisations simply by logging i
 
 Traditional password policies such as _Eight characters, one special character, one uppercase character and forced expiry_ are no longer in favour because, in reality, they force users to set weak and easy-to-guess passwords. Old password policies like this are now considered _password anti-patterns._ 
 
-- **Regular password expiry** - Regularly making a user change their password does more bad than good because it forces them into predictable patterns as they have to make their password memorable and accepted by the often narrowly defined password policy. A user's password might currently be: "Summer69!" then, when the 90-day expiry comes around, it could be changed to "Summer420!"   
+- **Regular password expiry** - Regularly making a user change their password does more bad than good because it forces them into predictable patterns as they have to make their password memorable and accepted by the often narrowly defined password policy. A user's password might currently be: "Summer69!" then, when the 90-day expiry comes around, it could be changed to "Summer420!"
 
 Microsoft has this to say:  
   
@@ -33,7 +33,7 @@ Traditional password policies encourage  pass**words **that are easy for attack
 
 - **Ban common passwords** - Ban using common words like the names of seasons, celebrities and top common passwords like passwordpasswordpassword.[The NCSC provides a great list here.][3]
 
-- **Enforce 2FA for all users.** - All user accounts must require two-factor authentication so that even if a password is compromised, the account won't be. PreventRansomware strongly advises using physical security keys for accounts wherever possible or at least for high-value administrator accounts. 
+- **Enforce 2FA for all users.** - All user accounts must require two-factor authentication so that even if a password is compromised, the account won't be. PreventRansomware strongly advises using physical security keys for accounts wherever possible or at least for high-value administrator accounts.
 
 Thanks to its lack of expiry and long but non-complex requirements, this policy encourages strong pass**phrases** (instead of passwords) like song lyrics or passages from books, such as:
 
@@ -49,6 +49,12 @@ By changing to the above passphrase methodology, you will protect your organisat
 
 **Added Bonus:** Improves your user experience by allowing them to use easy-to-type and remember passwords that they don't have to rotate regularly. When a new user joins the company, you can tell them to use song lyrics or a passage from a book. They will be pleasantly surprised when you explain that they don't need special characters. Also, the number of password reset tickets coming to the helpdesk will undoubtedly be reduced.
 
+### Summary
+
+- Modern password guidance has changed. Length and longevity are now the goal, not complexity.
+- Time interval password expiration should not be enforced, only when an account is breached or perhaps just one change per year.
+- Microsoft recommends password length of at least eight characters but PreventRansomware recommends 16 with no complexity requirements. 
+- Common passwords should be banned.
 
 
 

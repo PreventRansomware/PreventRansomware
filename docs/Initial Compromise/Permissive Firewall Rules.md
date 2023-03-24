@@ -8,7 +8,7 @@ Firewalls filter traffic that travels in and out of a network. In an ideal world
   
 This is bad because it means an attacker could exploit a [vulnerability in Microsofts RDP protocol][3] or guess a working username and password combination to have instant, persistent access to a victim network. The latter has become popular with [ransomware operators.][4]
 
-Having RDP open to the internet is akin to leaving the front door wide open. You should ensure that **administrative ports like 3389 are not allowed inbound.**   
+Having RDP open to the internet is akin to leaving the front door wide open. You should ensure that **administrative ports like 3389 are not allowed inbound.**  
 Other common sensitive management ports which are often left open are:  
 
 - 22 - SSH
@@ -19,7 +19,7 @@ Other common sensitive management ports which are often left open are:
 
 As earlier mentioned and regardless of the above list, you should aim to **block** all ports inbound, only allowing what is absolutely necessary to enable your business to function **however,** forcing ports closed on a business that legitimately has a need for them isn’t good practice either. Security risk must be balanced with usability. If your business does require an inbound port to be open you should aim to restrict traffic to a particular source IP address (such as a service provider who needs access) and, if possible, only allowed at particular expected times, such as during working hours. 
 
-Auditing firewall rules can be a difficult task because administrators have to juggle many rules which can be handled by different teams or even staff that have moved on. There are tools on the market that can help but our favourite is Shodan, it scans the entire internet and documents its findings in a searchable database. You can input your public IPs into its search bar which will show open ports, vulnerabilities and more.   
+Auditing firewall rules can be a difficult task because administrators have to juggle many rules which can be handled by different teams or even staff that have moved on. There are tools on the market that can help but our favourite is Shodan, it scans the entire internet and documents its findings in a searchable database. You can input your public IPs into its search bar which will show open ports, vulnerabilities and more.  
 If RDP or SSH are shown as below you should aim to close them as soon as possible. 
 ![][image-1]
   
@@ -30,6 +30,11 @@ Often significant security progress can be made only to be undone by someone els
 
 
 
+### Summary
+
+- If possible ensure that all inbound ports are closed on the permitter firewall
+- Use a scanning tool like Shodan to check non unexpected ports are open or opened in the future
+- If there is a requirement for inbound ports to be open ensure they are restricted to particular ranges or individual IPs. 
 
 
 

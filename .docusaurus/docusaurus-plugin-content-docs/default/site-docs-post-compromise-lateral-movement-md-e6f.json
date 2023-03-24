@@ -21,7 +21,7 @@
     "permalink": "/docs/Post Compromise/Privilege Escalation"
   },
   "next": {
-    "title": "Which EDR?",
-    "permalink": "/docs/Vendor Specific/introduction"
+    "title": "Persistence",
+    "permalink": "/docs/Post Compromise/persistance"
   }
 }

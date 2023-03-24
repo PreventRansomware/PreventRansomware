@@ -27,7 +27,7 @@ A patching document one-pager should convey the following information:
 
 - Who is responsible for actioning this alert?
 
-- How the patches are installed 
+- How the patches are installed
 
 - A section or process for the above persons to sign off that they have completed their parts of the patching process and confirmed the patches had been installed.
 
@@ -43,7 +43,12 @@ If your management team need some encouragement to install patches or sign off o
 - [ Unpatched exchanged leads to domain-wide ransomware][4]
 - [- Sonicwall Remote Code Execution ][5]
 
+### Summary
+-  IT administrators must ensure that any appliances exposed to the public internet are always running the most up-to-date software and firmware. Security patches must be installed as soon as possible.   
 
+- Monitoring should be in place that sends alerts when updates are available or a new vulnerability is disclosed.   
+
+- Steps should be taken to review external firewall configurations to ensure that no system control panels are exposed to the internet. Tools like Shodan.io can make finding exposed ports and control panels easier.
 
 [1]:	https://secalerts.co
 [2]:	https://www.zdnet.com/article/hackers-target-unpatched-citrix-servers-to-deploy-ransomware/

@@ -11,17 +11,16 @@
   "editUrl": "https://github.com/PreventRansomware/PreventRansomware/docs/Post Compromise/persistance.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 2,
   "frontMatter": {
-    "sidebar_position": 2
+    "sidebar\\_position": 2
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Summary",
-    "permalink": "/docs/Post Compromise/Summary"
+    "title": "Lateral Movement",
+    "permalink": "/docs/Post Compromise/LateralMovement"
   },
   "next": {
-    "title": "Privilege Escalation",
-    "permalink": "/docs/Post Compromise/Privilege Escalation"
+    "title": "Which EDR?",
+    "permalink": "/docs/Vendor Specific/introduction"
   }
 }

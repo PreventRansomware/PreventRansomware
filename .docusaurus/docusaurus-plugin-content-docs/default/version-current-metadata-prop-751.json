@@ -67,12 +67,6 @@
           },
           {
             "type": "link",
-            "label": "Persistence",
-            "href": "/docs/Post Compromise/persistance",
-            "docId": "Post Compromise/persistance"
-          },
-          {
-            "type": "link",
             "label": "Privilege Escalation",
             "href": "/docs/Post Compromise/Privilege Escalation",
             "docId": "Post Compromise/Privilege Escalation"
@@ -82,6 +76,12 @@
             "label": "Lateral Movement",
             "href": "/docs/Post Compromise/LateralMovement",
             "docId": "Post Compromise/LateralMovement"
+          },
+          {
+            "type": "link",
+            "label": "Persistence",
+            "href": "/docs/Post Compromise/persistance",
+            "docId": "Post Compromise/persistance"
           }
         ]
       },
@@ -107,9 +107,9 @@
         "items": [
           {
             "type": "link",
-            "label": "Bad eMail File Extensions",
-            "href": "/docs/Lists/Bad eMail File Extensions",
-            "docId": "Lists/Bad eMail File Extensions"
+            "label": "BadAttachments",
+            "href": "/docs/Lists/BadAttachments",
+            "docId": "Lists/BadAttachments"
           }
         ]
       }
@@ -152,9 +152,9 @@
       "description": "Ransomware is chalked up to be a complex threat to modern enterprises. Attackers infiltrate and cripple computer networks across the spectrum indiscriminately; hospitals, schools, factories, councils, utilities and of course government to name just a few.",
       "sidebar": "tutorialSidebar"
     },
-    "Lists/Bad eMail File Extensions": {
-      "id": "Lists/Bad eMail File Extensions",
-      "title": "Bad eMail File Extensions",
+    "Lists/BadAttachments": {
+      "id": "Lists/BadAttachments",
+      "title": "BadAttachments",
       "description": "In an ideal world the following file extensions should not be allowed through your eMail gateway. This list isn’t universal and may not be suitable for every organisation but instead should work as a guideline. You may find your business actually needs a particular file extension for their business, thats fine.",
       "sidebar": "tutorialSidebar"
     },
@@ -173,7 +173,7 @@
     "Post Compromise/Privilege Escalation": {
       "id": "Post Compromise/Privilege Escalation",
       "title": "Privilege Escalation",
-      "description": "When an attacker first gains their initial foothold on a network, they will most likely find themselves executing code as a low privileged user, perhaps an account used for general office work that has been phished with a malicious Excel document disguised as a business invoice.",
+      "description": "When an attacker first gains their initial foothold on a network, they will most likely find themselves executing code as a low privileged user, perhaps an account used for general office work that has been phished with a malicious document or similar.",
       "sidebar": "tutorialSidebar"
     },
     "Post Compromise/Summary": {

@@ -1,0 +1,22 @@
+{
+  "unversionedId": "Lists/BadAttachments",
+  "id": "Lists/BadAttachments",
+  "title": "BadAttachments",
+  "description": "In an ideal world the following file extensions should not be allowed through your eMail gateway. This list isn’t universal and may not be suitable for every organisation but instead should work as a guideline. You may find your business actually needs a particular file extension for their business, thats fine.",
+  "source": "@site/docs/Lists/BadAttachments.md",
+  "sourceDirName": "Lists",
+  "slug": "/Lists/BadAttachments",
+  "permalink": "/docs/Lists/BadAttachments",
+  "draft": false,
+  "editUrl": "https://github.com/PreventRansomware/PreventRansomware/docs/Lists/BadAttachments.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "sidebarposition": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Which EDR?",
+    "permalink": "/docs/Vendor Specific/introduction"
+  }
+}
