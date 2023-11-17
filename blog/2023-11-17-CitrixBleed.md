@@ -30,4 +30,4 @@ Organizations are advised to update their Citrix Netscaler Gateway and ADC produ
 ---
 
 **References:**
-- [ReliaQuest Blog on Citrix Bleed Vulnerability](https://www.reliaquest.com/blog/citrix-bleed-vulnerability-background-and-recommendations/)【6†source】【7†source】【8†source】【9†source】【10†source】【11†source】.
+- [ReliaQuest Blog on Citrix Bleed Vulnerability](https://www.reliaquest.com/blog/citrix-bleed-vulnerability-background-and-recommendations/)
