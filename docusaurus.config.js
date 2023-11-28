@@ -69,7 +69,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Built with Docusaurus.`,
+      copyright: `Built with Docusaurus. Powered by Open Source.`,
     },
     prism: {
       theme: lightCodeTheme,
@@ -84,13 +84,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/PreventRansomware/PreventRansomware/',
+            'https://github.com/PreventRansomware/PreventRansomware',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/PreventRansomware/PreventRansomware/',
+            'https://github.com/PreventRansomware/PreventRansomware',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
