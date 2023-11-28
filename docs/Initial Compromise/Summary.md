@@ -10,8 +10,8 @@ Some of the most popular are:
 - Many different types of phishing could lead to having credentials stolen or malicious code being executed on the victim’s computer. 
 - Brute forcing or guessing the username and password combinations to access a cloud or on-premise system.
 
-	 
 This section will discuss how each of these attack methods works, which in turn should help you understand how to prevent and detect them.
+
 
 
 
