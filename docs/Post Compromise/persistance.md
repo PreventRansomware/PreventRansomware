@@ -1,5 +1,5 @@
 ---
-sidebar\_position: 2
+sidebar\_position: 1
 ---
 
 # Persistence

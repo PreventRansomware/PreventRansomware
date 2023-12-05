@@ -58,8 +58,7 @@ Macros in office attachments are an extremely popular attack vector, and as such
 
 Macro-based infections have become such a problem that [Microsoft is disabling external macros by default][11], but users can still bypass the block, although they must go out of their way to do so. Again, if your business doesn't need macros, block them from executing entirely but bear in mind; security policy should work with a business and not against it, do not force a macro block on staff that have a legitimate business reason for using them, you should be enabling your business to function securely not locking them down unnecessarily. 
 
-The Microsoft ecosystem has countless file types that can execute malicious code; some of them probably aren't even discovered yet, so controlling macros isn't the endgame. [PreventRansomware provides lists of file types which should  never be allowed to pass the email security gateway and be delivered to users.][12]  
-  
+The Microsoft ecosystem has countless file types that can execute malicious code; some of them probably aren't even discovered yet, so controlling macros isn't the endgame.
 There are still plenty of other paths to monitor and isolate, but far too many for a standard IT team to get their hands around. As such, acquiring a modern endpoint detection and response is a good idea. EDR is a powerful way to monitor systems for malicious files and their activities regardless of where they came from, email or otherwise. 
 
 Despite marketing material, no tool will ever give you 100% protection, but EDR will provide you with dramatically better protection than standard antivirus.  
